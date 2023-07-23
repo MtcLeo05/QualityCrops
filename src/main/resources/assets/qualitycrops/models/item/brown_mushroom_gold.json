@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/brown_mushroom",
+    "layer1": "qualitycrops:item/gold_overlay"
+  }
+}

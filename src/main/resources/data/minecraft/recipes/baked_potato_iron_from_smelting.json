@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "qualitycrops:potato_iron"
+  },
+  "result": "qualitycrops:baked_potato_iron"
+}

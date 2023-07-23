@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:baked_potato_diamond"
+    },
+    {
+      "item": "qualitycrops:cooked_rabbit_diamond"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "qualitycrops:carrot_diamond"
+    },
+    {
+      "item": "qualitycrops:red_mushroom_diamond"
+    }
+  ],
+  "result": {
+    "item": "qualitycrops:rabbit_stew_diamond"
+  }
+}

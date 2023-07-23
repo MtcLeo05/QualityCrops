@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "qualitycrops:red_mushroom_iron"
+    },
+    {
+      "item": "qualitycrops:brown_mushroom_iron"
+    }
+  ],
+  "result": {
+    "item": "qualitycrops:mushroom_stew_iron"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "qualitycrops:beetroot_iron"
+    },
+    {
+      "item": "qualitycrops:beetroot_iron"
+    },
+    {
+      "item": "qualitycrops:beetroot_iron"
+    },
+    {
+      "item": "qualitycrops:beetroot_iron"
+    },
+    {
+      "item": "qualitycrops:beetroot_iron"
+    },
+    {
+      "item": "qualitycrops:beetroot_iron"
+    }
+  ],
+  "result": {
+    "item": "qualitycrops:beetroot_soup_iron"
+  }
+}

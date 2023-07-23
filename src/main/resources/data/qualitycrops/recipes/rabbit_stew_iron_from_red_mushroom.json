@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:baked_potato_iron"
+    },
+    {
+      "item": "qualitycrops:cooked_rabbit_iron"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "qualitycrops:carrot_iron"
+    },
+    {
+      "item": "qualitycrops:red_mushroom_iron"
+    }
+  ],
+  "result": {
+    "item": "qualitycrops:rabbit_stew_iron"
+  }
+}

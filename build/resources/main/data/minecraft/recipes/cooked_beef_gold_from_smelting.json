@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "qualitycrops:beef_gold"
+  },
+  "result": "qualitycrops:cooked_beef_gold"
+}

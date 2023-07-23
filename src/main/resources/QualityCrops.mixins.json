@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mtcleo05.qualitycrops.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "QualityCrops.refmap.json",
+  "mixins": [
+    "ChickenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "qualitycrops:salmon_diamond"
+  },
+  "result": "qualitycrops:cooked_salmon_diamond"
+}

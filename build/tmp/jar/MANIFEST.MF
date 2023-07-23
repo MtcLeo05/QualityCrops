@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: QualityCrops
+Specification-Vendor: MtcLeo05
+Specification-Version: 1
+Implementation-Title: QualityCrops
+Implementation-Version: com.mtcleo05
+Implementation-Vendor: MtcLeo05
+Implementation-Timestamp: 2023-07-23T10:18:47+0200
+MixinConfigs: QualityCrops.mixins.json
+

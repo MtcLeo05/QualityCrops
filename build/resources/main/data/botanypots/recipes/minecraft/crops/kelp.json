@@ -1,0 +1,42 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "minecraft:kelp"
+  },
+  "categories": [
+    "water"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "minecraft:kelp",
+    "properties": {
+      "age": 25
+    }
+  },
+  "drops": [
+    {
+      "chance": 0.70,
+      "output": {
+        "item": "minecraft:kelp"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "qualitycrops:kelp_iron"
+      }
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "qualitycrops:kelp_gold"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "qualitycrops:kelp_diamond"
+      }
+    }
+  ]
+}

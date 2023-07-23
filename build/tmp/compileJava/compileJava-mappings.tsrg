@@ -1,0 +1,8 @@
+com/mtcleo05/qualitycrops/mixin/ChickenMixin eggTime f_28231_
+com/mtcleo05/qualitycrops/mixin/ChickenMixin flap f_28226_
+com/mtcleo05/qualitycrops/mixin/ChickenMixin flapSpeed f_28227_
+com/mtcleo05/qualitycrops/mixin/ChickenMixin oFlapSpeed f_28228_
+com/mtcleo05/qualitycrops/mixin/ChickenMixin oFlap f_28229_
+com/mtcleo05/qualitycrops/mixin/ChickenMixin flapping f_28230_
+com/mtcleo05/qualitycrops/mixin/ChickenMixin isChickenJockey f_28232_
+com/mtcleo05/qualitycrops/mixin/ChickenMixin isChickenJockey ()Z m_28264_

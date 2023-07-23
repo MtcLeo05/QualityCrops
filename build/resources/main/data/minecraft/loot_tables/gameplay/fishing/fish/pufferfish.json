@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 70,
+              "name": "minecraft:pufferfish"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 15,
+              "name": "qualitycrops:pufferfish_iron"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "qualitycrops:pufferfish_gold"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 5,
+              "name": "qualitycrops:pufferfish_diamond"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
