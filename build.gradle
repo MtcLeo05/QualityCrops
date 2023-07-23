@@ -148,6 +148,7 @@ dependencies {
 
     implementation fg.deobf("curse.maven:bookshelf-228525:4556697")
     implementation fg.deobf("curse.maven:botanypots-353928:4514735")
+    implementation fg.deobf("curse.maven:appleskin-248787:3872808")
 
     compileOnly fg.deobf("mezz.jei:jei-1.19.2-forge-api:11.6.0.1016")
     compileOnly fg.deobf("mezz.jei:jei-1.19.2-common-api:11.6.0.1016")
