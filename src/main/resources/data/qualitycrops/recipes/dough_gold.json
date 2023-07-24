@@ -6,9 +6,16 @@
     },
     {
       "item": "qualitycrops:wheat_gold"
+    },
+    {
+      "item": "qualitycrops:wheat_gold"
+    },
+    {
+      "item": "qualitycrops:wheat_gold"
     }
   ],
   "result": {
-    "item": "qualitycrops:dough_gold"
+    "item": "qualitycrops:dough_gold",
+    "count": 3
   }
 }
