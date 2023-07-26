@@ -6,9 +6,16 @@
     },
     {
       "item": "qualitycrops:wheat_diamond"
+    },
+    {
+      "item": "qualitycrops:wheat_diamond"
+    },
+    {
+      "item": "qualitycrops:wheat_diamond"
     }
   ],
   "result": {
-    "item": "qualitycrops:dough_diamond"
+    "item": "qualitycrops:dough_diamond",
+    "count": 3
   }
 }

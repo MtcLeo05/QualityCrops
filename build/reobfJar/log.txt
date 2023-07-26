@@ -138,9 +138,9 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\MtcLeo05\Desktop\QualityCrops-1.19.2\build\libs\QualityCrops-com.mtcleo05.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$1/makeIcon()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/CreativeModeTab/makeIcon()Lnet/minecraft/world/item/ItemStack;: makeIcon -> m_6976_
 Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$2/makeIcon()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/CreativeModeTab/makeIcon()Lnet/minecraft/world/item/ItemStack;: makeIcon -> m_6976_
 Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$2/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/item/CreativeModeTab/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_40786_
+Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$1/makeIcon()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/CreativeModeTab/makeIcon()Lnet/minecraft/world/item/ItemStack;: makeIcon -> m_6976_
 Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/item/CreativeModeTab/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_40786_
 Conflicting propagated mapping for com/mtcleo05/qualitycrops/mixin/ChickenMixin/aiStep()V from net/minecraft/world/entity/animal/Animal/aiStep()V: aiStep -> m_8107_
 Adding extras

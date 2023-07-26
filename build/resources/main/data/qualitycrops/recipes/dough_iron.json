@@ -6,9 +6,16 @@
     },
     {
       "item": "qualitycrops:wheat_iron"
+    },
+    {
+      "item": "qualitycrops:wheat_iron"
+    },
+    {
+      "item": "qualitycrops:wheat_iron"
     }
   ],
   "result": {
-    "item": "qualitycrops:dough_iron"
+    "item": "qualitycrops:dough_iron",
+    "count": 3
   }
 }

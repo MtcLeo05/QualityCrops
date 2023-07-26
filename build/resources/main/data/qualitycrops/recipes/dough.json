@@ -6,9 +6,16 @@
     },
     {
       "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
     }
   ],
   "result": {
-    "item": "qualitycrops:dough"
+    "item": "qualitycrops:dough",
+    "count": 3
   }
 }
