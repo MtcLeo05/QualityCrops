@@ -150,6 +150,7 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityCrops-1.19.2\build\reobfJar\out
   META-INF/MANIFEST.MF
   META-INF/mods.toml
   QualityCrops.mixins.json
+  QualityCrops.png
   QualityCrops.refmap.json
   assets/
   assets/minecraft/
@@ -318,22 +319,49 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityCrops-1.19.2\build\reobfJar\out
   data/forge/tags/items/diamond/cooked_beef.json
   data/forge/tags/items/diamond/cooked_chicken.json
   data/forge/tags/items/diamond/cooked_fishes.json
+  data/forge/tags/items/diamond/cooked_fishes/
+  data/forge/tags/items/diamond/cooked_fishes/cod.json
+  data/forge/tags/items/diamond/cooked_fishes/salmon.json
   data/forge/tags/items/diamond/cooked_mutton.json
   data/forge/tags/items/diamond/cooked_pork.json
+  data/forge/tags/items/diamond/raw_fishes.json
+  data/forge/tags/items/diamond/raw_fishes/
+  data/forge/tags/items/diamond/raw_fishes/cod.json
+  data/forge/tags/items/diamond/raw_fishes/salmon.json
+  data/forge/tags/items/diamond/raw_pork.json
   data/forge/tags/items/dough/
   data/forge/tags/items/dough/wheat.json
   data/forge/tags/items/gold/
   data/forge/tags/items/gold/cooked_beef.json
   data/forge/tags/items/gold/cooked_chicken.json
   data/forge/tags/items/gold/cooked_fishes.json
+  data/forge/tags/items/gold/cooked_fishes/
+  data/forge/tags/items/gold/cooked_fishes/cod.json
+  data/forge/tags/items/gold/cooked_fishes/salmon.json
   data/forge/tags/items/gold/cooked_mutton.json
   data/forge/tags/items/gold/cooked_pork.json
+  data/forge/tags/items/gold/raw_fishes.json
+  data/forge/tags/items/gold/raw_fishes/
+  data/forge/tags/items/gold/raw_fishes/cod.json
+  data/forge/tags/items/gold/raw_fishes/salmon.json
+  data/forge/tags/items/gold/raw_pork.json
   data/forge/tags/items/iron/
   data/forge/tags/items/iron/cooked_beef.json
   data/forge/tags/items/iron/cooked_chicken.json
   data/forge/tags/items/iron/cooked_fishes.json
+  data/forge/tags/items/iron/cooked_fishes/
+  data/forge/tags/items/iron/cooked_fishes/cod.json
+  data/forge/tags/items/iron/cooked_fishes/salmon.json
   data/forge/tags/items/iron/cooked_mutton.json
   data/forge/tags/items/iron/cooked_pork.json
+  data/forge/tags/items/iron/diamond.json
+  data/forge/tags/items/iron/gold.json
+  data/forge/tags/items/iron/iron.json
+  data/forge/tags/items/iron/raw_fishes.json
+  data/forge/tags/items/iron/raw_fishes/
+  data/forge/tags/items/iron/raw_fishes/cod.json
+  data/forge/tags/items/iron/raw_fishes/salmon.json
+  data/forge/tags/items/iron/raw_pork.json
   data/forge/tags/items/quality/
   data/forge/tags/items/quality/diamond.json
   data/forge/tags/items/quality/gold.json
