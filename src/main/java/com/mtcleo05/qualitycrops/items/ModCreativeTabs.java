@@ -19,10 +19,6 @@ public class ModCreativeTabs {
             return new ItemStack(getItemFromID("wheat_iron", ModCrops.CROPS));
         }
 
-        @Override
-        public @NotNull Component getDisplayName() {
-            return Component.translatable("itemGroup.qualitycrops.crops");
-        }
     };
 
     public static final CreativeModeTab ITEMS = new CreativeModeTab( "qualitycrops_items") {
@@ -31,10 +27,6 @@ public class ModCreativeTabs {
             return new ItemStack(getItemFromID("dough", ModItems.NEW_ITEMS));
         }
 
-        @Override
-        public @NotNull Component getDisplayName() {
-            return Component.translatable("itemGroup.qualitycrops.items");
-        }
     };
 
     public static Item getItemFromID(String id, DeferredRegister<Item> register){

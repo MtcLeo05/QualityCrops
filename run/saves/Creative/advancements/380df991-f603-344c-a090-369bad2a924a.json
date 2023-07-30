@@ -1,1254 +1,129 @@
 {
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+  "qualitycrops:recipes/qualitycrops_items/dough": {
     "criteria": {
-      "has_mutton": "2023-07-19 17:38:30 +0200"
+      "hasWheat": "2023-07-30 19:59:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/qualitycrops_items/cooked_beef_diamond_from_campfire_cooking": {
+  "qualitycrops:recipes/qualitycrops_items/cookie_gold": {
     "criteria": {
-      "has_beef_diamond": "2023-07-19 21:14:00 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
-    "criteria": {
-      "has_cooked_rabbit": "2023-07-19 17:38:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_salmon_diamond_from_smelting": {
-    "criteria": {
-      "has_salmon_diamond": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lever": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/dried_kelp_gold_from_smoking": {
-    "criteria": {
-      "has_kelp_gold": "2023-07-19 22:48:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/baked_potato_diamond_from_smoking": {
-    "criteria": {
-      "has_potato_diamond": "2023-07-19 19:08:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_cod_gold_from_smoking": {
-    "criteria": {
-      "has_cod_gold": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/dried_kelp_gold_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp_gold": "2023-07-19 22:48:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_chicken_iron_from_smelting": {
-    "criteria": {
-      "has_chicken_iron": "2023-07-19 21:14:45 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_helmet": {
-    "criteria": {
-      "has_leather": "2023-07-19 21:13:44 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pumpkin_seeds": {
-    "criteria": {
-      "has_pumpkin": "2023-07-19 21:42:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_chicken_diamond_from_smoking": {
-    "criteria": {
-      "has_chicken_diamond": "2023-07-19 21:15:05 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
-    "criteria": {
-      "has_cooked_rabbit": "2023-07-19 17:38:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magenta_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
+      "hasWheat": "2023-07-30 19:59:48 +0200"
     },
     "done": true
   },
   "minecraft:recipes/food/bread": {
     "criteria": {
-      "has_wheat": "2023-07-19 16:07:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/melon_seeds": {
-    "criteria": {
-      "has_melon": "2023-07-19 21:41:41 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2023-07-19 16:09:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2023-07-19 16:07:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_cod_iron_from_smelting": {
-    "criteria": {
-      "has_cod_iron": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_rabbit_iron_from_smelting": {
-    "criteria": {
-      "has_rabbit_iron": "2023-07-19 21:16:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_salmon_gold_from_smoking": {
-    "criteria": {
-      "has_salmon_gold": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cyan_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2023-07-19 15:50:56 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2023-07-19 16:07:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_beef_diamond_from_smoking": {
-    "criteria": {
-      "has_beef_diamond": "2023-07-19 21:14:00 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2023-07-19 17:38:16 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_beef_diamond_from_smelting": {
-    "criteria": {
-      "has_beef_diamond": "2023-07-19 21:14:00 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_rabbit_iron_from_campfire_cooking": {
-    "criteria": {
-      "has_rabbit_iron": "2023-07-19 21:16:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_brown_mushroom": "2023-07-19 17:39:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
-    "criteria": {
-      "has_rabbit": "2023-07-19 17:38:29 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2023-07-19 21:42:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_beef_gold_from_smoking": {
-    "criteria": {
-      "has_beef_gold": "2023-07-19 21:13:56 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_mutton_diamond_from_smoking": {
-    "criteria": {
-      "has_mutton_diamond": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/baked_potato_gold_from_smelting": {
-    "criteria": {
-      "has_potato_gold": "2023-07-19 19:38:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_banner": {
-    "criteria": {
-      "has_brown_wool": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_mutton_iron_from_smoking": {
-    "criteria": {
-      "has_mutton_iron": "2023-07-19 21:14:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod": {
-    "criteria": {
-      "has_cod": "2023-07-19 17:38:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_bed": {
-    "criteria": {
-      "has_gray_wool": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
-    "criteria": {
-      "has_kelp": "2023-07-19 21:42:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "qualitycrops:recipes/qualitycrops_items/beetroot_soup_diamond": {
-    "criteria": {
-      "hasBowl": "2023-07-19 19:03:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_mutton_iron_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton_iron": "2023-07-19 21:14:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/baked_potato_gold_from_campfire_cooking": {
-    "criteria": {
-      "has_potato_gold": "2023-07-19 19:38:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_cod_iron_from_smoking": {
-    "criteria": {
-      "has_cod_iron": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_cod_gold_from_smelting": {
-    "criteria": {
-      "has_cod_gold": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "qualitycrops:recipes/qualitycrops_items/pumpkin_pie_diamond": {
-    "criteria": {
-      "hasPumpkin": "2023-07-19 22:09:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_salmon_iron_from_smelting": {
-    "criteria": {
-      "has_salmon_iron": "2023-07-19 19:43:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2023-07-19 16:07:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2023-07-19 21:13:44 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2023-07-19 21:13:44 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2023-07-19 17:38:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/dried_kelp_diamond_from_smelting": {
-    "criteria": {
-      "has_kelp_diamond": "2023-07-19 22:48:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_porkchop_gold_from_smoking": {
-    "criteria": {
-      "has_porkchop_gold": "2023-07-19 21:09:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "qualitycrops:recipes/qualitycrops_items/pumpkin_pie_gold": {
-    "criteria": {
-      "hasPumpkin": "2023-07-19 22:09:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_chicken_iron_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken_iron": "2023-07-19 21:14:45 +0200"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/baked_potato_diamond_from_smelting": {
-    "criteria": {
-      "has_potato_diamond": "2023-07-19 19:08:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_beef_gold_from_campfire_cooking": {
-    "criteria": {
-      "has_beef_gold": "2023-07-19 21:13:56 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2023-07-19 17:38:16 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_chicken_gold_from_smoking": {
-    "criteria": {
-      "has_chicken_gold": "2023-07-19 21:14:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2023-07-19 15:50:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_chicken_diamond_from_smelting": {
-    "criteria": {
-      "has_chicken_diamond": "2023-07-19 21:15:05 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2023-07-19 23:04:22 +0200"
-    },
-    "done": true
-  },
-  "qualitycrops:recipes/qualitycrops_items/beetroot_soup_gold": {
-    "criteria": {
-      "hasBowl": "2023-07-19 19:03:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
-    "criteria": {
-      "has_rabbit": "2023-07-19 17:38:29 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
-    "criteria": {
-      "has_kelp": "2023-07-19 21:42:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2023-07-19 19:02:29 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_salmon_gold_from_campfire_cooking": {
-    "criteria": {
-      "has_salmon_gold": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2023-07-19 16:07:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_cod_gold_from_campfire_cooking": {
-    "criteria": {
-      "has_cod_gold": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2023-07-19 16:07:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_mutton_gold_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton_gold": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_porkchop_gold_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop_gold": "2023-07-19 21:09:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_rabbit_gold_from_campfire_cooking": {
-    "criteria": {
-      "has_rabbit_gold": "2023-07-19 21:17:20 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/baked_potato_iron_from_smelting": {
-    "criteria": {
-      "has_potato_iron": "2023-07-23 09:51:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2023-07-19 21:10:11 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_mutton_gold_from_smoking": {
-    "criteria": {
-      "has_mutton_gold": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/dried_kelp_iron_from_smelting": {
-    "criteria": {
-      "has_kelp_iron": "2023-07-19 22:10:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_brown_mushroom": "2023-07-19 17:39:12 +0200"
-    },
-    "done": true
-  },
-  "qualitycrops:recipes/qualitycrops_items/cocoa_beans_from_iron_quality": {
-    "criteria": {
-      "hasIronCocoa": "2023-07-23 09:51:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
-    "criteria": {
-      "has_salmon": "2023-07-19 17:38:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2023-07-19 21:13:44 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_hoe": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
-    "criteria": {
-      "has_potato": "2023-07-19 15:50:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:zoglin": "2023-07-19 21:18:30 +0200",
-      "minecraft:hoglin": "2023-07-19 21:18:08 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_rabbit_diamond_from_campfire_cooking": {
-    "criteria": {
-      "has_rabbit_diamond": "2023-07-19 21:16:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato": {
-    "criteria": {
-      "has_potato": "2023-07-19 15:50:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
-    "criteria": {
-      "has_beef": "2023-07-19 17:38:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken": "2023-07-19 17:38:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
-    "criteria": {
-      "has_melon": "2023-07-19 21:41:41 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_bed": {
-    "criteria": {
-      "has_brown_wool": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_rabbit_gold_from_smelting": {
-    "criteria": {
-      "has_rabbit_gold": "2023-07-19 21:17:20 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
-    "criteria": {
-      "has_mutton": "2023-07-19 17:38:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_rabbit_iron_from_smoking": {
-    "criteria": {
-      "has_rabbit_iron": "2023-07-19 21:16:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_porkchop_gold_from_smelting": {
-    "criteria": {
-      "has_porkchop_gold": "2023-07-19 21:09:47 +0200"
-    },
-    "done": true
-  },
-  "qualitycrops:recipes/qualitycrops_items/dough_iron": {
-    "criteria": {
-      "hasIronWheat": "2023-07-23 09:51:20 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/dried_kelp_iron_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp_iron": "2023-07-19 22:10:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2023-07-19 16:07:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_mutton_diamond_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton_diamond": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
-    "criteria": {
-      "has_cod": "2023-07-19 17:38:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/baked_potato_iron_from_smoking": {
-    "criteria": {
-      "has_potato_iron": "2023-07-23 09:51:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
-    "criteria": {
-      "has_potato": "2023-07-19 15:50:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2023-07-19 21:09:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2023-07-19 21:09:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_beef_gold_from_smelting": {
-    "criteria": {
-      "has_beef_gold": "2023-07-19 21:13:56 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lime_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_beef_iron_from_smelting": {
-    "criteria": {
-      "has_beef_iron": "2023-07-19 21:13:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/black_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
-    "criteria": {
-      "has_salmon": "2023-07-19 17:38:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_cod_diamond_from_smoking": {
-    "criteria": {
-      "has_cod_diamond": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/dried_kelp_diamond_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp_diamond": "2023-07-19 22:48:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_porkchop_diamond_from_smoking": {
-    "criteria": {
-      "has_porkchop_diamond": "2023-07-19 21:10:17 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_bed": {
-    "criteria": {
-      "has_light_gray_wool": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/baked_potato_gold_from_smoking": {
-    "criteria": {
-      "has_potato_gold": "2023-07-19 19:38:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_wood": {
-    "criteria": {
-      "has_log": "2023-07-19 23:04:22 +0200"
-    },
-    "done": true
-  },
-  "botanypots:husbandry/get_hopper_pot": {
-    "criteria": {
-      "get_hopper_pot": "2023-07-23 09:57:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/arrow": {
-    "criteria": {
-      "has_feather": "2023-07-19 21:14:44 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_beef_iron_from_campfire_cooking": {
-    "criteria": {
-      "has_beef_iron": "2023-07-19 21:13:46 +0200"
-    },
-    "done": true
-  },
-  "qualitycrops:recipes/qualitycrops_items/beetroot_soup_iron": {
-    "criteria": {
-      "hasBowl": "2023-07-19 19:03:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_shovel": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_banner": {
-    "criteria": {
-      "has_gray_wool": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/obtain_netherite_hoe": {
-    "criteria": {
-      "netherite_hoe": "2023-07-19 15:50:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_banner": {
-    "criteria": {
-      "has_light_gray_wool": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/dried_kelp_gold_from_smelting": {
-    "criteria": {
-      "has_kelp_gold": "2023-07-19 22:48:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_mutton_gold_from_smelting": {
-    "criteria": {
-      "has_mutton_gold": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/baked_potato_diamond_from_campfire_cooking": {
-    "criteria": {
-      "has_potato_diamond": "2023-07-19 19:08:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_porkchop_diamond_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop_diamond": "2023-07-19 21:10:17 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_planks": {
-    "criteria": {
-      "has_logs": "2023-07-19 23:04:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_carpet": {
-    "criteria": {
-      "has_gray_wool": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_rabbit_diamond_from_smelting": {
-    "criteria": {
-      "has_rabbit_diamond": "2023-07-19 21:16:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon": {
-    "criteria": {
-      "has_salmon": "2023-07-19 17:38:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2023-07-19 17:22:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_mutton_diamond_from_smelting": {
-    "criteria": {
-      "has_mutton_diamond": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_wool": {
-    "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2023-07-19 21:09:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit": {
-    "criteria": {
-      "has_rabbit": "2023-07-19 17:38:29 +0200"
-    },
-    "done": true
-  },
-  "qualitycrops:recipes/qualitycrops_items/pumpkin_pie_iron": {
-    "criteria": {
-      "hasPumpkin": "2023-07-19 22:09:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_mutton_iron_from_smelting": {
-    "criteria": {
-      "has_mutton_iron": "2023-07-19 21:14:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_chicken_diamond_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken_diamond": "2023-07-19 21:15:05 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/dried_kelp_diamond_from_smoking": {
-    "criteria": {
-      "has_kelp_diamond": "2023-07-19 22:48:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_porkchop_iron_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop_iron": "2023-07-19 21:09:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2023-07-19 21:13:44 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:hoglin": "2023-07-19 21:18:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_rabbit_diamond_from_smoking": {
-    "criteria": {
-      "has_rabbit_diamond": "2023-07-19 21:16:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_salmon_iron_from_smoking": {
-    "criteria": {
-      "has_salmon_iron": "2023-07-19 19:43:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_beef_iron_from_smoking": {
-    "criteria": {
-      "has_beef_iron": "2023-07-19 21:13:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_salmon_diamond_from_campfire_cooking": {
-    "criteria": {
-      "has_salmon_diamond": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_salmon_iron_from_campfire_cooking": {
-    "criteria": {
-      "has_salmon_iron": "2023-07-19 19:43:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef": {
-    "criteria": {
-      "has_beef": "2023-07-19 17:38:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:cold_ocean": "2023-07-19 19:39:43 +0200",
-      "minecraft:forest": "2023-07-19 15:50:11 +0200",
-      "minecraft:plains": "2023-07-19 15:18:48 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_porkchop_iron_from_smelting": {
-    "criteria": {
-      "has_porkchop_iron": "2023-07-19 21:09:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_carpet": {
-    "criteria": {
-      "has_light_gray_wool": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/stone_sword": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/baked_potato_iron_from_campfire_cooking": {
-    "criteria": {
-      "has_potato_iron": "2023-07-23 09:51:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/dried_kelp_iron_from_smoking": {
-    "criteria": {
-      "has_kelp_iron": "2023-07-19 22:10:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_pickaxe": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_salmon_gold_from_smelting": {
-    "criteria": {
-      "has_salmon_gold": "2023-07-19 19:44:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_salmon_diamond_from_smoking": {
-    "criteria": {
-      "has_salmon_diamond": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2023-07-19 15:50:50 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2023-07-19 21:13:44 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2023-07-19 16:07:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_rabbit_gold_from_smoking": {
-    "criteria": {
-      "has_rabbit_gold": "2023-07-19 21:17:20 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_carpet": {
-    "criteria": {
-      "has_brown_wool": "2023-07-19 21:14:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2023-07-19 15:50:36 +0200"
+      "has_wheat": "2023-07-30 19:59:48 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "in_water": "2023-07-19 16:07:24 +0200"
+      "in_water": "2023-07-30 19:59:36 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/qualitycrops_items/cooked_chicken_gold_from_campfire_cooking": {
+  "qualitycrops:recipes/qualitycrops_items/dough_iron": {
     "criteria": {
-      "has_chicken_gold": "2023-07-19 21:14:49 +0200"
+      "hasIronWheat": "2023-07-30 20:03:19 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/pumpkin_pie": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_pumpkin": "2023-07-19 21:42:15 +0200"
+      "in_water": "2023-07-30 19:59:36 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pink_wool": {
+  "qualitycrops:recipes/qualitycrops_items/cookie_iron": {
     "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
+      "hasWheat": "2023-07-30 19:59:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dried_kelp_block": {
+  "qualitycrops:recipes/qualitycrops_items/dough_gold": {
     "criteria": {
-      "has_dried_kelp": "2023-07-19 21:41:49 +0200"
+      "hasGoldWheat": "2023-07-30 20:00:13 +0200"
     },
     "done": true
   },
-  "minecraft:husbandry/fishy_business": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "cod": "2023-07-19 19:40:09 +0200"
+      "in_water": "2023-07-30 19:59:36 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/qualitycrops_items/cooked_cod_diamond_from_campfire_cooking": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "has_cod_diamond": "2023-07-19 19:44:14 +0200"
+      "in_water": "2023-07-30 19:59:36 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+  "qualitycrops:recipes/qualitycrops_items/cookie_diamond": {
     "criteria": {
-      "has_kelp": "2023-07-19 21:42:09 +0200"
+      "hasWheat": "2023-07-30 19:59:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/qualitycrops_items/cooked_porkchop_iron_from_smoking": {
+  "botanypots:husbandry/get_hopper_pot": {
     "criteria": {
-      "has_porkchop_iron": "2023-07-19 21:09:47 +0200"
+      "get_hopper_pot": "2023-07-30 19:59:05 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod_from_smoking": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_cod": "2023-07-19 17:38:26 +0200"
+      "has_bone_meal": "2023-07-30 19:58:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/qualitycrops_items/cooked_porkchop_diamond_from_smelting": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "has_porkchop_diamond": "2023-07-19 21:10:17 +0200"
+      "wheat": "2023-07-30 19:59:34 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+  "qualitycrops:recipes/qualitycrops_items/dough_diamond": {
     "criteria": {
-      "has_beef": "2023-07-19 17:38:27 +0200"
+      "hasDiamondWheat": "2023-07-30 20:00:11 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/cookie": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_cocoa": "2023-07-19 21:41:38 +0200"
+      "in_water": "2023-07-30 19:59:36 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/qualitycrops_items/cooked_cod_iron_from_campfire_cooking": {
+  "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "has_cod_iron": "2023-07-19 19:44:14 +0200"
+      "in_water": "2023-07-30 19:59:36 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_wool": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
+      "has_water_bucket": "2023-07-30 19:58:56 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken": {
+  "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
-      "has_chicken": "2023-07-19 17:38:28 +0200"
+      "has_wheat": "2023-07-30 19:59:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_wool": {
+  "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "has_white_wool": "2023-07-19 21:14:18 +0200"
+      "minecraft:birch_forest": "2023-07-30 19:58:16 +0200"
     },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_chicken_gold_from_smelting": {
-    "criteria": {
-      "has_chicken_gold": "2023-07-19 21:14:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/qualitycrops_items/cooked_cod_diamond_from_smelting": {
-    "criteria": {
-      "has_cod_diamond": "2023-07-19 19:44:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/brown_dye": {
-    "criteria": {
-      "has_cocoa_beans": "2023-07-19 21:41:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/melon": {
-    "criteria": {
-      "has_melon": "2023-07-19 21:41:41 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_axe": {
-    "criteria": {
-      "has_cobblestone": "2023-07-19 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2023-07-19 17:38:30 +0200"
-    },
-    "done": true
+    "done": false
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_bone_meal": "2023-07-19 15:50:56 +0200"
+      "has_bone_meal": "2023-07-30 19:58:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/qualitycrops_items/cooked_chicken_iron_from_smoking": {
-    "criteria": {
-      "has_chicken_iron": "2023-07-19 21:14:45 +0200"
-    },
-    "done": true
-  },
-  "DataVersion": 3120
+  "DataVersion": 2975
 }

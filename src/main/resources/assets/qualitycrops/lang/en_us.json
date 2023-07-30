@@ -117,6 +117,6 @@
   "item.qualitycrops.wheat_diamond": "Wheat",
   "item.qualitycrops.wheat_gold": "Wheat",
   "item.qualitycrops.wheat_iron": "Wheat",
-  "itemGroup.qualitycrops.crops": "Quality Crops",
-  "itemGroup.qualitycrops.items": "Quality Items"
+  "itemGroup.qualitycrops_crops": "Quality Crops",
+  "itemGroup.qualitycrops_items": "Quality Items"
 }

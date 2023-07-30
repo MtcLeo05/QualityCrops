@@ -138,10 +138,10 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\MtcLeo05\Desktop\QualityCrops-1.19.2\build\libs\QualityCrops-com.mtcleo05.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$1/makeIcon()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/CreativeModeTab/makeIcon()Lnet/minecraft/world/item/ItemStack;: makeIcon -> m_6976_
-Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/item/CreativeModeTab/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_40786_
 Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$2/makeIcon()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/CreativeModeTab/makeIcon()Lnet/minecraft/world/item/ItemStack;: makeIcon -> m_6976_
 Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$2/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/item/CreativeModeTab/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_40786_
+Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$1/makeIcon()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/CreativeModeTab/makeIcon()Lnet/minecraft/world/item/ItemStack;: makeIcon -> m_6976_
+Conflicting propagated mapping for com/mtcleo05/qualitycrops/items/ModCreativeTabs$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/item/CreativeModeTab/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_40786_
 Conflicting propagated mapping for com/mtcleo05/qualitycrops/mixin/ChickenMixin/aiStep()V from net/minecraft/world/entity/animal/Animal/aiStep()V: aiStep -> m_8107_
 Adding extras
 Sorting
@@ -332,19 +332,19 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityCrops-1.19.2\build\reobfJar\out
   data/forge/tags/items/dough/
   data/forge/tags/items/dough/wheat.json
   data/forge/tags/items/gold/
-  data/forge/tags/items/gold/cooked_beef.json
-  data/forge/tags/items/gold/cooked_chicken.json
   data/forge/tags/items/gold/cooked_fishes.json
   data/forge/tags/items/gold/cooked_fishes/
   data/forge/tags/items/gold/cooked_fishes/cod.json
   data/forge/tags/items/gold/cooked_fishes/salmon.json
-  data/forge/tags/items/gold/cooked_mutton.json
-  data/forge/tags/items/gold/cooked_pork.json
-  data/forge/tags/items/gold/raw_fishes.json
   data/forge/tags/items/gold/raw_fishes/
   data/forge/tags/items/gold/raw_fishes/cod.json
+  data/forge/tags/items/gold/raw_fishes/cooked_beef.json
+  data/forge/tags/items/gold/raw_fishes/cooked_chicken.json
+  data/forge/tags/items/gold/raw_fishes/cooked_mutton.json
+  data/forge/tags/items/gold/raw_fishes/cooked_pork.json
+  data/forge/tags/items/gold/raw_fishes/raw_fishes.json
+  data/forge/tags/items/gold/raw_fishes/raw_pork.json
   data/forge/tags/items/gold/raw_fishes/salmon.json
-  data/forge/tags/items/gold/raw_pork.json
   data/forge/tags/items/iron/
   data/forge/tags/items/iron/cooked_beef.json
   data/forge/tags/items/iron/cooked_chicken.json
@@ -354,9 +354,6 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityCrops-1.19.2\build\reobfJar\out
   data/forge/tags/items/iron/cooked_fishes/salmon.json
   data/forge/tags/items/iron/cooked_mutton.json
   data/forge/tags/items/iron/cooked_pork.json
-  data/forge/tags/items/iron/diamond.json
-  data/forge/tags/items/iron/gold.json
-  data/forge/tags/items/iron/iron.json
   data/forge/tags/items/iron/raw_fishes.json
   data/forge/tags/items/iron/raw_fishes/
   data/forge/tags/items/iron/raw_fishes/cod.json
