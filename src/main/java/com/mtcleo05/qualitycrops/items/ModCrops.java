@@ -16,24 +16,21 @@ public class ModCrops {
         CROPS.register(id + "_iron", () ->
                 new QualityItem(
                         new Item.Properties()
-                                .rarity(ModRarities.IRON)
-                                .tab(ModCreativeTabs.CROPS),
+                                .rarity(ModRarities.IRON),
                         1
                 ));
 
         CROPS.register(id + "_gold", () ->
                 new QualityItem(
                         new Item.Properties()
-                                .rarity(ModRarities.GOLD)
-                                .tab(ModCreativeTabs.CROPS),
+                                .rarity(ModRarities.GOLD),
                         2
                 ));
 
         CROPS.register(id + "_diamond", () ->
                 new QualityItem(
                         new Item.Properties()
-                                .rarity(ModRarities.DIAMOND)
-                                .tab(ModCreativeTabs.CROPS),
+                                .rarity(ModRarities.DIAMOND),
                         3
                 ));
 
@@ -44,7 +41,6 @@ public class ModCrops {
                 new QualityItem(
                         new Item.Properties()
                                 .rarity(ModRarities.IRON)
-                                .tab(ModCreativeTabs.CROPS)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(Math.round(nutrition * 1.25f))
                                         .saturationMod(saturation * 1.25f)
@@ -56,7 +52,6 @@ public class ModCrops {
                 new QualityItem(
                         new Item.Properties()
                                 .rarity(ModRarities.GOLD)
-                                .tab(ModCreativeTabs.CROPS)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(Math.round(nutrition * 1.5f))
                                         .saturationMod(saturation * 1.5f)
@@ -68,7 +63,6 @@ public class ModCrops {
                 new QualityItem(
                         new Item.Properties()
                                 .rarity(ModRarities.DIAMOND)
-                                .tab(ModCreativeTabs.CROPS)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(Math.round(nutrition * 2f))
                                         .saturationMod(saturation * 2f)

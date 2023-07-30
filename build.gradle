@@ -145,13 +145,11 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    implementation fg.deobf("curse.maven:bookshelf-228525:4556697")
-    implementation fg.deobf("curse.maven:botanypots-353928:4514735")
-    implementation fg.deobf("curse.maven:appleskin-248787:3872808")
+    implementation fg.deobf("curse.maven:bookshelf-228525:4648130")
+    implementation fg.deobf("curse.maven:botany-pots-353928:4658458")
+    implementation fg.deobf("curse.maven:appleskin-248787:4605078")
 
-    compileOnly fg.deobf("mezz.jei:jei-1.19.2-forge-api:11.6.0.1016")
-    compileOnly fg.deobf("mezz.jei:jei-1.19.2-common-api:11.6.0.1016")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.19.2-forge:11.6.0.1016")
+    implementation fg.deobf("curse.maven:jei-238222:4644453")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
