@@ -1,0 +1,19 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:salmon",
+        "flags": {
+          "is_on_fire": true
+        }
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:cooked_salmon_iron",
+  "goldItem": "qualitycrops:cooked_salmon_gold",
+  "diamondItem": "qualitycrops:cooked_salmon_diamond"
+}
+

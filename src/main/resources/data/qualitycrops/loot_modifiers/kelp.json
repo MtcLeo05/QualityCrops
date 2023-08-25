@@ -1,0 +1,12 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:kelp"
+    }
+  ],
+  "ironItem": "qualitycrops:kelp_iron",
+  "goldItem": "qualitycrops:kelp_gold",
+  "diamondItem": "qualitycrops:kelp_diamond"
+}

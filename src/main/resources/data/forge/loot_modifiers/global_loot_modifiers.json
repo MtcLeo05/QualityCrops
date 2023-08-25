@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "entries": [
+    "qualitycrops:potatoes",
+    "qualitycrops:dark_oak_leaves",
+    "qualitycrops:oak_leaves",
+    "qualitycrops:beetroots",
+    "qualitycrops:brown_mushrooms_block",
+    "qualitycrops:carrots",
+    "qualitycrops:cocoa",
+    "qualitycrops:kelp",
+    "qualitycrops:kelp_plant",
+    "qualitycrops:melon",
+    "qualitycrops:potatoes",
+    "qualitycrops:red_mushrooms_block",
+    "qualitycrops:wheat",
+
+    "qualitycrops:chicken",
+    "qualitycrops:cod",
+    "qualitycrops:cow",
+    "qualitycrops:hoglin",
+    "qualitycrops:pig",
+    "qualitycrops:rabbit",
+    "qualitycrops:pufferfish",
+    "qualitycrops:salmon",
+    "qualitycrops:sheep",
+    "qualitycrops:tropical_fish",
+
+    "qualitycrops:fire_chicken",
+    "qualitycrops:fire_cod",
+    "qualitycrops:fire_cow",
+    "qualitycrops:fire_hoglin",
+    "qualitycrops:fire_pig",
+    "qualitycrops:fire_rabbit",
+    "qualitycrops:fire_salmon",
+    "qualitycrops:fire_sheep"
+  ]
+}

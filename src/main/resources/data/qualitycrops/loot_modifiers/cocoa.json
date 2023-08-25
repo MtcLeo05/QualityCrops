@@ -1,0 +1,15 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:cocoa",
+      "properties": {
+        "age": "2"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:cocoa_beans_iron",
+  "goldItem": "qualitycrops:cocoa_beans_gold",
+  "diamondItem": "qualitycrops:cocoa_beans_diamond"
+}

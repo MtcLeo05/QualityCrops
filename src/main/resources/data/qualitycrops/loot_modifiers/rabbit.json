@@ -1,0 +1,16 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:rabbit"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:rabbit_iron",
+  "goldItem": "qualitycrops:rabbit_gold",
+  "diamondItem": "qualitycrops:rabbit_diamond"
+}
+

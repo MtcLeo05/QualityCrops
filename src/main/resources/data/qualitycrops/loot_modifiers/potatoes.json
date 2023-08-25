@@ -1,0 +1,15 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:potatoes",
+      "properties": {
+        "age": "7"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:potato_iron",
+  "goldItem": "qualitycrops:potato_gold",
+  "diamondItem": "qualitycrops:potato_diamond"
+}
