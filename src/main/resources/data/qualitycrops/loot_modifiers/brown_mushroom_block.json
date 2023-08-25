@@ -1,0 +1,12 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:brown_mushroom_block"
+    }
+  ],
+  "ironItem": "qualitycrops:brown_mushroom_iron",
+  "goldItem": "qualitycrops:brown_mushroom_gold",
+  "diamondItem": "qualitycrops:brown_mushroom_diamond"
+}

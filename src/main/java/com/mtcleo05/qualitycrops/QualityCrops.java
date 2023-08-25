@@ -3,6 +3,7 @@ package com.mtcleo05.qualitycrops;
 import com.mojang.logging.LogUtils;
 import com.mtcleo05.qualitycrops.items.ModCrops;
 import com.mtcleo05.qualitycrops.items.ModItems;
+import com.mtcleo05.qualitycrops.loot.QualityLootModifiers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -36,6 +37,7 @@ public class QualityCrops {
 
         ModCrops.register(modEventBus);
         ModItems.register(modEventBus);
+        QualityLootModifiers.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

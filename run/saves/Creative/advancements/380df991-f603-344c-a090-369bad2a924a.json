@@ -107,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2023-08-20 18:03:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2023-07-19 16:07:24 +0200"
@@ -119,15 +125,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2023-08-20 18:03:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2023-07-19 16:09:02 +0200"
     },
     "done": true
   },
+  "qualitycrops:recipes/qualitycrops_items/cookie_iron": {
+    "criteria": {
+      "hasWheat": "2023-08-20 18:01:53 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2023-07-19 16:07:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2023-08-20 18:03:22 +0200"
     },
     "done": true
   },
@@ -176,6 +200,12 @@
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2023-07-19 17:38:16 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/qualitycrops_items/dough": {
+    "criteria": {
+      "hasWheat": "2023-08-20 18:01:53 +0200"
     },
     "done": true
   },
@@ -230,6 +260,12 @@
   "minecraft:recipes/qualitycrops_items/baked_potato_gold_from_smelting": {
     "criteria": {
       "has_potato_gold": "2023-07-19 19:38:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2023-08-20 18:03:22 +0200"
     },
     "done": true
   },
@@ -341,6 +377,12 @@
     },
     "done": true
   },
+  "qualitycrops:recipes/qualitycrops_items/cookie_gold": {
+    "criteria": {
+      "hasWheat": "2023-08-20 18:01:53 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2023-07-19 17:38:28 +0200"
@@ -449,6 +491,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2023-08-20 18:03:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-07-19 23:04:09 +0200"
@@ -488,6 +536,12 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2023-07-19 16:07:24 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/qualitycrops_items/cookie_diamond": {
+    "criteria": {
+      "hasWheat": "2023-08-20 18:01:53 +0200"
     },
     "done": true
   },
@@ -702,6 +756,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2023-08-20 18:03:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2023-07-19 21:14:18 +0200"
@@ -816,6 +876,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2023-08-20 18:03:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_banner": {
     "criteria": {
       "has_gray_wool": "2023-07-19 21:14:25 +0200"
@@ -885,6 +951,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2023-07-19 17:22:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2023-08-20 18:03:22 +0200"
     },
     "done": true
   },
@@ -1208,6 +1280,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2023-08-20 18:03:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/qualitycrops_items/cooked_cod_diamond_from_smelting": {
     "criteria": {
       "has_cod_diamond": "2023-07-19 19:44:14 +0200"
@@ -1235,6 +1313,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2023-07-19 17:38:30 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/qualitycrops_items/dough_diamond": {
+    "criteria": {
+      "hasDiamondWheat": "2023-08-20 18:02:00 +0200"
     },
     "done": true
   },

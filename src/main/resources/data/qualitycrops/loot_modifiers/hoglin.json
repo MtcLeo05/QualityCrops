@@ -1,0 +1,16 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:hoglin"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:porkchop_iron",
+  "goldItem": "qualitycrops:porkchop_gold",
+  "diamondItem": "qualitycrops:porkchop_diamond"
+}
+

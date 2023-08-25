@@ -1,0 +1,19 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:chicken",
+        "flags": {
+          "is_on_fire": true
+        }
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:cooked_chicken_iron",
+  "goldItem": "qualitycrops:cooked_chicken_gold",
+  "diamondItem": "qualitycrops:cooked_chicken_diamond"
+}
+
