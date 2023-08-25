@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2023-08-20 19:14:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2023-07-30 19:59:36 +0200"
@@ -71,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-08-20 19:14:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2023-07-30 19:58:55 +0200"
@@ -86,6 +98,12 @@
   "qualitycrops:recipes/qualitycrops_items/dough_diamond": {
     "criteria": {
       "hasDiamondWheat": "2023-07-30 20:00:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2023-08-20 19:14:11 +0200"
     },
     "done": true
   },

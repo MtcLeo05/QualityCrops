@@ -375,7 +375,7 @@ public class ModItems {
         registerVanillaQualityFood("cooked_chicken", VANILLA_QUALITY, Foods.COOKED_CHICKEN, false);
         registerVanillaQualityFood("cooked_rabbit", VANILLA_QUALITY, Foods.COOKED_RABBIT, false);
         registerVanillaQualityFood("cooked_mutton", VANILLA_QUALITY, Foods.COOKED_MUTTON, false);
-        registerVanillaQualityFood("cooked_porkchop", VANILLA_QUALITY, Foods.PORKCHOP, false);
+        registerVanillaQualityFood("cooked_porkchop", VANILLA_QUALITY, Foods.COOKED_PORKCHOP, false);
         registerVanillaQualityFood("apple", VANILLA_QUALITY, Foods.APPLE, false);
         registerVanillaQualityFood("cookie", VANILLA_QUALITY, Foods.COOKIE, false);
         registerVanillaQualityFood("melon_slice", VANILLA_QUALITY, Foods.MELON_SLICE, false);

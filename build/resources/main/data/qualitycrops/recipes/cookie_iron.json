@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:wheat"
+      "item": "qualitycrops:wheat_iron"
     },
     {
       "item": "qualitycrops:cocoa_beans_iron"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "qualitycrops:wheat_iron"
     }
   ],
   "result": {
