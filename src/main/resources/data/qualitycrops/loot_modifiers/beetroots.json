@@ -1,0 +1,15 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:beetroots",
+      "properties": {
+        "age": "3"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:beetroot_iron",
+  "goldItem": "qualitycrops:beetroot_gold",
+  "diamondItem": "qualitycrops:beetroot_diamond"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:cow"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:beef_iron",
+  "goldItem": "qualitycrops:beef_gold",
+  "diamondItem": "qualitycrops:beef_diamond"
+}
+

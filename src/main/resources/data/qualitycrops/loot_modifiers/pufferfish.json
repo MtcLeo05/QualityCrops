@@ -1,0 +1,16 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:pufferfish"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:pufferfish_iron",
+  "goldItem": "qualitycrops:pufferfish_gold",
+  "diamondItem": "qualitycrops:pufferfish_diamond"
+}
+

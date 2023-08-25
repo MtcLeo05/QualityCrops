@@ -1,0 +1,16 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:tropical_fish"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:tropical_fish_iron",
+  "goldItem": "qualitycrops:tropical_fish_gold",
+  "diamondItem": "qualitycrops:tropical_fish_diamond"
+}
+
