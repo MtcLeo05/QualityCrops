@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:poisonous_potato_gold"
+    }
+  ],
+  "result": {
+    "item": "minecraft:poisonous_potato"
+  }
+}

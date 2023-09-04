@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:carrot_diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:carrot"
+  }
+}

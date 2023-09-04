@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:red_mushroom_iron"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_mushroom"
+  }
+}

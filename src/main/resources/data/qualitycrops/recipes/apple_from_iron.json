@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:apple_iron"
+    }
+  ],
+  "result": {
+    "item": "minecraft:apple"
+  }
+}

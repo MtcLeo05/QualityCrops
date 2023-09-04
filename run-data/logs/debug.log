@@ -1,232 +1,338 @@
-[20lug2023 10:04:32.749] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\MtcLeo05\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.21, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mod, QualityCrops, --all, --output, C:\Users\MtcLeo05\Desktop\QualityCrops\src\generated\resources, --existing, C:\Users\MtcLeo05\Desktop\QualityCrops\src\main\resources, --mixin.config, QualityCrops.mixins.json]
-[20lug2023 10:04:32.774] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.4 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[20lug2023 10:04:32.792] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
-[20lug2023 10:04:32.800] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
-[20lug2023 10:04:32.810] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
-[20lug2023 10:04:32.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[20lug2023 10:04:32.825] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
-[20lug2023 10:04:32.832] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
-[20lug2023 10:04:32.832] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[20lug2023 10:04:32.833] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[20lug2023 10:04:32.833] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[20lug2023 10:04:32.833] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[20lug2023 10:04:32.835] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
-[20lug2023 10:04:32.835] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
-[20lug2023 10:04:32.835] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
-[20lug2023 10:04:32.836] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
-[20lug2023 10:04:32.836] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
-[20lug2023 10:04:32.836] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[20lug2023 10:04:32.838] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
-[20lug2023 10:04:32.838] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
-[20lug2023 10:04:32.838] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
-[20lug2023 10:04:32.839] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[20lug2023 10:04:32.840] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[20lug2023 10:04:32.845] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[20lug2023 10:04:32.846] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
-[20lug2023 10:04:32.856] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@7ff95560
-[20lug2023 10:04:32.867] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/MtcLeo05/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
-[20lug2023 10:04:32.870] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[20lug2023 10:04:32.870] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[20lug2023 10:04:32.871] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[20lug2023 10:04:32.871] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[20lug2023 10:04:32.872] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[20lug2023 10:04:32.872] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[20lug2023 10:04:32.873] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
-[20lug2023 10:04:32.874] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[20lug2023 10:04:32.874] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[20lug2023 10:04:32.875] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\MtcLeo05\Desktop\QualityCrops\run-data
-[20lug2023 10:04:32.875] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\MtcLeo05\Desktop\QualityCrops\run-data
-[20lug2023 10:04:32.875] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\MtcLeo05\Desktop\QualityCrops\run-data\mods
-[20lug2023 10:04:32.875] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\MtcLeo05\Desktop\QualityCrops\run-data\mods
-[20lug2023 10:04:32.875] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\MtcLeo05\Desktop\QualityCrops\run-data\config
-[20lug2023 10:04:32.876] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\MtcLeo05\Desktop\QualityCrops\run-data\config
-[20lug2023 10:04:32.876] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\MtcLeo05\Desktop\QualityCrops\run-data\config\fml.toml
-[20lug2023 10:04:32.876] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[20lug2023 10:04:32.903] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\MtcLeo05\Desktop\QualityCrops\run-data\defaultconfigs
-[20lug2023 10:04:32.903] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
-[20lug2023 10:04:32.905] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[20lug2023 10:04:32.906] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgedatauserdev as launch service
-[20lug2023 10:04:32.917] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=43.2.21, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
-[20lug2023 10:04:32.918] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[20lug2023 10:04:32.918] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
-[20lug2023 10:04:32.919] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
-[20lug2023 10:04:32.919] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[20lug2023 10:04:32.920] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
-[20lug2023 10:04:32.920] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
-[20lug2023 10:04:32.920] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[20lug2023 10:04:32.921] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[20lug2023 10:04:32.929] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
-[20lug2023 10:04:32.931] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
-[20lug2023 10:04:32.932] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
-[20lug2023 10:04:32.937] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates QualityCrops%%C:\Users\MtcLeo05\Desktop\QualityCrops\build\resources\main;QualityCrops%%C:\Users\MtcLeo05\Desktop\QualityCrops\build\classes\java\main from env
-[20lug2023 10:04:32.938] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{QualityCrops=[C:\Users\MtcLeo05\Desktop\QualityCrops\build\resources\main, C:\Users\MtcLeo05\Desktop\QualityCrops\build\classes\java\main]}]
-[20lug2023 10:04:33.126] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
-[20lug2023 10:04:33.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.21\fa1ae71bea432df41108f08b99827c469f5000b5\javafmllanguage-1.19.2-43.2.21.jar
-[20lug2023 10:04:33.130] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.21\fa1ae71bea432df41108f08b99827c469f5000b5\javafmllanguage-1.19.2-43.2.21.jar is missing mods.toml file
-[20lug2023 10:04:33.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.21\c247250956b111815cd784ab08c0eb04762dc0f9\lowcodelanguage-1.19.2-43.2.21.jar
-[20lug2023 10:04:33.135] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.21\c247250956b111815cd784ab08c0eb04762dc0f9\lowcodelanguage-1.19.2-43.2.21.jar is missing mods.toml file
-[20lug2023 10:04:33.139] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.21\5e33f5c7cd16010727e2303ae6728751f1633ac4\mclanguage-1.19.2-43.2.21.jar
-[20lug2023 10:04:33.139] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.21\5e33f5c7cd16010727e2303ae6728751f1633ac4\mclanguage-1.19.2-43.2.21.jar is missing mods.toml file
-[20lug2023 10:04:33.142] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.21\50f36e9031499fd6ae3af6e26a5ad47f089f9027\fmlcore-1.19.2-43.2.21.jar
-[20lug2023 10:04:33.143] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.21\50f36e9031499fd6ae3af6e26a5ad47f089f9027\fmlcore-1.19.2-43.2.21.jar is missing mods.toml file
-[20lug2023 10:04:33.147] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\Desktop\QualityCrops\build\resources\main
-[20lug2023 10:04:33.154] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {qualitycrops} mods - versions {0.0.1}
-[20lug2023 10:04:33.157] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
-[20lug2023 10:04:33.160] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.2.21}
-[20lug2023 10:04:33.177] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.19.2-forge\11.6.0.1016_mapped_official_1.19.2\jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar
-[20lug2023 10:04:33.178] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar with {jei} mods - versions {11.6.0.1016}
-[20lug2023 10:04:33.181] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.19.2-forge\11.6.0.1016_mapped_official_1.19.2\jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar
-[20lug2023 10:04:33.182] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar with {jei} mods - versions {11.6.0.1016}
-[20lug2023 10:04:33.186] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid jei, selecting most recent based on version data
-[20lug2023 10:04:33.187] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar for modid jei with version 11.6.0.1016
-[20lug2023 10:04:33.191] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar, it does not contain dependency information.
-[20lug2023 10:04:33.192] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
-[20lug2023 10:04:33.192] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
-[20lug2023 10:04:33.192] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar, it does not contain dependency information.
-[20lug2023 10:04:33.192] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.19.2-43.2.21.jar, it does not contain dependency information.
-[20lug2023 10:04:33.192] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.19.2-43.2.21.jar, it does not contain dependency information.
-[20lug2023 10:04:33.192] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.19.2-43.2.21.jar, it does not contain dependency information.
-[20lug2023 10:04:33.193] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.19.2-43.2.21.jar, it does not contain dependency information.
-[20lug2023 10:04:33.214] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[20lug2023 10:04:33.215] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
-[20lug2023 10:04:33.218] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\MtcLeo05\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.21_mapped_official_1.19.2\forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
-[20lug2023 10:04:33.218] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
-[20lug2023 10:04:33.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.2.21}
-[20lug2023 10:04:33.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
-[20lug2023 10:04:33.241] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
-[20lug2023 10:04:33.241] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
-[20lug2023 10:04:33.241] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
-[20lug2023 10:04:33.241] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
-[20lug2023 10:04:33.241] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
-[20lug2023 10:04:33.241] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
-[20lug2023 10:04:33.241] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\Desktop\QualityCrops\build\resources\main
-[20lug2023 10:04:33.243] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {qualitycrops} mods - versions {0.0.1}
-[20lug2023 10:04:33.243] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\MtcLeo05\Desktop\QualityCrops\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
-[20lug2023 10:04:33.244] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.19.2-forge\11.6.0.1016_mapped_official_1.19.2\jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar
-[20lug2023 10:04:33.245] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar with {jei} mods - versions {11.6.0.1016}
-[20lug2023 10:04:33.245] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.19.2-forge\11.6.0.1016_mapped_official_1.19.2\jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
-[20lug2023 10:04:33.246] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
-[20lug2023 10:04:33.255] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
-[20lug2023 10:04:33.256] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
-[20lug2023 10:04:33.257] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 43
-[20lug2023 10:04:33.257] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 43
-[20lug2023 10:04:33.261] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
-[20lug2023 10:04:33.261] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
-[20lug2023 10:04:33.261] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
-[20lug2023 10:04:33.264] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 4 mod requirements (4 mandatory, 0 optional)
-[20lug2023 10:04:33.265] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[20lug2023 10:04:33.563] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 30289 method mappings from methods.csv
-[20lug2023 10:04:33.588] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28897 field mappings from fields.csv
-[20lug2023 10:04:33.629] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
-[20lug2023 10:04:33.630] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
-[20lug2023 10:04:33.630] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
-[20lug2023 10:04:33.630] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
-[20lug2023 10:04:33.631] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
-[20lug2023 10:04:33.631] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
-[20lug2023 10:04:33.753] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[20lug2023 10:04:33.753] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
-[20lug2023 10:04:33.796] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[20lug2023 10:04:33.796] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
-[20lug2023 10:04:33.821] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[20lug2023 10:04:33.827] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@43f1bb92 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
-[20lug2023 10:04:33.828] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@445bb139 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
-[20lug2023 10:04:33.828] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@b9a77c8 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
-[20lug2023 10:04:33.829] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7a81065e to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
-[20lug2023 10:04:33.829] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6cd3ad8a to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
-[20lug2023 10:04:33.829] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@75181b50 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
-[20lug2023 10:04:33.829] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d64160c to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
-[20lug2023 10:04:33.829] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5f254608 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
-[20lug2023 10:04:33.829] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2eeb0f9b to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
-[20lug2023 10:04:33.829] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
-[20lug2023 10:04:34.096] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[20lug2023 10:04:34.096] [main/DEBUG] [mixin/]: Registering mixin config: QualityCrops.mixins.json
-[20lug2023 10:04:34.111] [main/DEBUG] [mixin/]: Compatibility level JAVA_8 specified by QualityCrops.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
-[20lug2023 10:04:34.112] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[20lug2023 10:04:34.112] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
-[20lug2023 10:04:34.113] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(qualitycrops)
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(qualitycrops)
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(qualitycrops)
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(qualitycrops)
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(qualitycrops)
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(qualitycrops)]
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jei)
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jei)
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jei)
-[20lug2023 10:04:34.114] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jei)
-[20lug2023 10:04:34.119] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jei)
-[20lug2023 10:04:34.119] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
-[20lug2023 10:04:34.119] [main/DEBUG] [mixin/]: inject() running with 5 agents
-[20lug2023 10:04:34.119] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[20lug2023 10:04:34.119] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[20lug2023 10:04:34.119] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[20lug2023 10:04:34.119] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(qualitycrops)]
-[20lug2023 10:04:34.120] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
-[20lug2023 10:04:34.120] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\MtcLeo05\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, QualityCrops, --all, --output, C:\Users\MtcLeo05\Desktop\QualityCrops\src\generated\resources, --existing, C:\Users\MtcLeo05\Desktop\QualityCrops\src\main\resources]
-[20lug2023 10:04:34.185] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
-[20lug2023 10:04:34.186] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[20lug2023 10:04:34.186] [main/DEBUG] [mixin/]: Selecting config QualityCrops.mixins.json
-[20lug2023 10:04:34.189] [main/WARN] [mixin/]: Reference map 'QualityCrops.refmap.json' for QualityCrops.mixins.json could not be read. If this is a development environment you can ignore this message
-[20lug2023 10:04:34.189] [main/DEBUG] [mixin/]: Preparing QualityCrops.mixins.json (1)
-[20lug2023 10:04:34.223] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
-[20lug2023 10:04:34.225] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
-[20lug2023 10:04:34.225] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
-[20lug2023 10:04:34.226] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
-[20lug2023 10:04:34.227] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
-[20lug2023 10:04:34.228] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
-[20lug2023 10:04:34.243] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
-[20lug2023 10:04:34.245] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
-[20lug2023 10:04:34.245] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
-[20lug2023 10:04:34.310] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [QualityCrops]
-[20lug2023 10:04:34.559] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
-[20lug2023 10:04:34.647] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
-[20lug2023 10:04:34.679] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
-[20lug2023 10:04:34.735] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
-[20lug2023 10:04:35.258] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
-[20lug2023 10:04:35.962] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[20lug2023 10:04:36.007] [main/DEBUG] [mixin/]: Mixing ChickenMixin from QualityCrops.mixins.json into net.minecraft.world.entity.animal.Chicken
-[20lug2023 10:04:36.026] [main/DEBUG] [mixin/]: QualityCrops.mixins.json:ChickenMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[20lug2023 10:04:36.519] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
-[20lug2023 10:04:36.800] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
-[20lug2023 10:04:36.863] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
-[20lug2023 10:04:37.199] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
-[20lug2023 10:04:37.209] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@71e4b308 - got cpw.mods.cl.ModuleClassLoader@29f0802c
-[20lug2023 10:04:37.209] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
-[20lug2023 10:04:37.216] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@71e4b308 - got cpw.mods.cl.ModuleClassLoader@29f0802c
-[20lug2023 10:04:37.217] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.mtcleo05.qualitycrops.QualityCrops
-[20lug2023 10:04:37.220] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@71e4b308 - got cpw.mods.cl.ModuleClassLoader@29f0802c
-[20lug2023 10:04:37.221] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for mezz.jei.forge.JustEnoughItems
-[20lug2023 10:04:37.257] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
-[20lug2023 10:04:37.263] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 43.2 from cpw.mods.modlauncher.TransformingClassLoader@71e4b308
-[20lug2023 10:04:37.264] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 43.2.21
-[20lug2023 10:04:37.264] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 43.2
-[20lug2023 10:04:37.264] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
-[20lug2023 10:04:37.265] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.19.2 from cpw.mods.modlauncher.TransformingClassLoader@71e4b308
-[20lug2023 10:04:37.265] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.19.2
-[20lug2023 10:04:37.265] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220805.130853
-[20lug2023 10:04:37.265] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.21, for MC 1.19.2 with MCP 20220805.130853
-[20lug2023 10:04:37.266] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.21 Initialized
-[20lug2023 10:04:37.278] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
-[20lug2023 10:04:37.290] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for qualitycrops
-[20lug2023 10:04:37.294] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.mtcleo05.qualitycrops.datagen.DataGenerators to MOD
-[20lug2023 10:04:37.297] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.mtcleo05.qualitycrops.QualityCrops$ClientModEvents to MOD
-[20lug2023 10:04:37.338] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
-[20lug2023 10:04:37.338] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
-[20lug2023 10:04:37.339] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
-[20lug2023 10:04:37.339] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
-[20lug2023 10:04:37.340] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
-[20lug2023 10:04:37.340] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
-[20lug2023 10:04:37.340] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+[04set2023 12:10:35.889] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\MtcLeo05\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.21, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mod, QualityCrops, --all, --output, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\src\generated\resources, --existing, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\src\main\resources, --mixin.config, QualityCrops.mixins.json]
+[04set2023 12:10:35.892] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.4 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[04set2023 12:10:35.909] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[04set2023 12:10:35.917] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[04set2023 12:10:35.926] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[04set2023 12:10:35.934] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[04set2023 12:10:35.940] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[04set2023 12:10:35.948] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[04set2023 12:10:35.948] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[04set2023 12:10:35.948] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[04set2023 12:10:35.949] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[04set2023 12:10:35.949] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[04set2023 12:10:35.950] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[04set2023 12:10:35.951] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[04set2023 12:10:35.951] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[04set2023 12:10:35.952] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[04set2023 12:10:35.952] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
+[04set2023 12:10:35.953] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[04set2023 12:10:35.954] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[04set2023 12:10:35.954] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+[04set2023 12:10:35.955] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[04set2023 12:10:35.956] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[04set2023 12:10:35.956] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[04set2023 12:10:35.961] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[04set2023 12:10:35.962] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[04set2023 12:10:35.972] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@1d76aeea
+[04set2023 12:10:35.983] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/MtcLeo05/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
+[04set2023 12:10:35.986] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[04set2023 12:10:35.986] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[04set2023 12:10:35.987] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[04set2023 12:10:35.987] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[04set2023 12:10:35.988] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[04set2023 12:10:35.988] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[04set2023 12:10:35.990] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[04set2023 12:10:35.990] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[04set2023 12:10:35.990] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[04set2023 12:10:35.992] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\run-data
+[04set2023 12:10:35.992] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\run-data
+[04set2023 12:10:35.992] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\run-data\mods
+[04set2023 12:10:35.992] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\run-data\mods
+[04set2023 12:10:35.992] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\run-data\config
+[04set2023 12:10:35.992] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\run-data\config
+[04set2023 12:10:35.993] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\run-data\config\fml.toml
+[04set2023 12:10:35.993] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[04set2023 12:10:36.022] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\run-data\defaultconfigs
+[04set2023 12:10:36.023] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[04set2023 12:10:36.025] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[04set2023 12:10:36.025] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgedatauserdev as launch service
+[04set2023 12:10:36.038] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=43.2.21, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
+[04set2023 12:10:36.039] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[04set2023 12:10:36.040] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[04set2023 12:10:36.040] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[04set2023 12:10:36.041] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[04set2023 12:10:36.041] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[04set2023 12:10:36.041] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[04set2023 12:10:36.041] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[04set2023 12:10:36.041] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[04set2023 12:10:36.049] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[04set2023 12:10:36.052] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[04set2023 12:10:36.053] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[04set2023 12:10:36.057] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates QualityCrops%%C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\resources\main;QualityCrops%%C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\classes\java\main from env
+[04set2023 12:10:36.058] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{QualityCrops=[C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\resources\main, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\classes\java\main]}]
+[04set2023 12:10:36.229] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
+[04set2023 12:10:36.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.21\fa1ae71bea432df41108f08b99827c469f5000b5\javafmllanguage-1.19.2-43.2.21.jar
+[04set2023 12:10:36.232] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.21\fa1ae71bea432df41108f08b99827c469f5000b5\javafmllanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[04set2023 12:10:36.235] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.21\c247250956b111815cd784ab08c0eb04762dc0f9\lowcodelanguage-1.19.2-43.2.21.jar
+[04set2023 12:10:36.235] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.21\c247250956b111815cd784ab08c0eb04762dc0f9\lowcodelanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[04set2023 12:10:36.238] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.21\5e33f5c7cd16010727e2303ae6728751f1633ac4\mclanguage-1.19.2-43.2.21.jar
+[04set2023 12:10:36.238] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.21\5e33f5c7cd16010727e2303ae6728751f1633ac4\mclanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[04set2023 12:10:36.240] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.21\50f36e9031499fd6ae3af6e26a5ad47f089f9027\fmlcore-1.19.2-43.2.21.jar
+[04set2023 12:10:36.241] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.21\50f36e9031499fd6ae3af6e26a5ad47f089f9027\fmlcore-1.19.2-43.2.21.jar is missing mods.toml file
+[04set2023 12:10:36.244] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\resources\main
+[04set2023 12:10:36.249] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {qualitycrops} mods - versions {1.19.2-1.0.4}
+[04set2023 12:10:36.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[04set2023 12:10:36.254] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.2.21}
+[04set2023 12:10:36.271] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\bookshelf-228525\4556697_mapped_official_1.19.2\bookshelf-228525-4556697_mapped_official_1.19.2.jar
+[04set2023 12:10:36.272] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file bookshelf-228525-4556697_mapped_official_1.19.2.jar with {bookshelf} mods - versions {16.3.20}
+[04set2023 12:10:36.276] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\botanypots-353928\4514735_mapped_official_1.19.2\botanypots-353928-4514735_mapped_official_1.19.2.jar
+[04set2023 12:10:36.277] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file botanypots-353928-4514735_mapped_official_1.19.2.jar with {botanypots} mods - versions {9.0.33}
+[04set2023 12:10:36.280] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\appleskin-248787\3872808_mapped_official_1.19.2\appleskin-248787-3872808_mapped_official_1.19.2.jar
+[04set2023 12:10:36.283] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file appleskin-248787-3872808_mapped_official_1.19.2.jar with {appleskin} mods - versions {2.4.2+mc1.19}
+[04set2023 12:10:36.287] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.19.2-forge\11.6.0.1016_mapped_official_1.19.2\jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar
+[04set2023 12:10:36.289] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar with {jei} mods - versions {11.6.0.1016}
+[04set2023 12:10:36.292] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\bookshelf-228525\4556697_mapped_official_1.19.2\bookshelf-228525-4556697_mapped_official_1.19.2.jar
+[04set2023 12:10:36.293] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file bookshelf-228525-4556697_mapped_official_1.19.2.jar with {bookshelf} mods - versions {16.3.20}
+[04set2023 12:10:36.296] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\botanypots-353928\4514735_mapped_official_1.19.2\botanypots-353928-4514735_mapped_official_1.19.2.jar
+[04set2023 12:10:36.298] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file botanypots-353928-4514735_mapped_official_1.19.2.jar with {botanypots} mods - versions {9.0.33}
+[04set2023 12:10:36.300] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\appleskin-248787\3872808_mapped_official_1.19.2\appleskin-248787-3872808_mapped_official_1.19.2.jar
+[04set2023 12:10:36.303] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file appleskin-248787-3872808_mapped_official_1.19.2.jar with {appleskin} mods - versions {2.4.2+mc1.19}
+[04set2023 12:10:36.306] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.19.2-forge\11.6.0.1016_mapped_official_1.19.2\jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar
+[04set2023 12:10:36.307] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar with {jei} mods - versions {11.6.0.1016}
+[04set2023 12:10:36.312] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid botanypots, selecting most recent based on version data
+[04set2023 12:10:36.312] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file botanypots-353928-4514735_mapped_official_1.19.2.jar for modid botanypots with version 9.0.33
+[04set2023 12:10:36.312] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid bookshelf, selecting most recent based on version data
+[04set2023 12:10:36.312] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file bookshelf-228525-4556697_mapped_official_1.19.2.jar for modid bookshelf with version 16.3.20
+[04set2023 12:10:36.312] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid appleskin, selecting most recent based on version data
+[04set2023 12:10:36.313] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file appleskin-248787-3872808_mapped_official_1.19.2.jar for modid appleskin with version 2.4.2+mc1.19
+[04set2023 12:10:36.313] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid jei, selecting most recent based on version data
+[04set2023 12:10:36.313] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar for modid jei with version 11.6.0.1016
+[04set2023 12:10:36.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar, it does not contain dependency information.
+[04set2023 12:10:36.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from botanypots-353928-4514735_mapped_official_1.19.2.jar, it does not contain dependency information.
+[04set2023 12:10:36.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from bookshelf-228525-4556697_mapped_official_1.19.2.jar, it does not contain dependency information.
+[04set2023 12:10:36.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
+[04set2023 12:10:36.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[04set2023 12:10:36.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from appleskin-248787-3872808_mapped_official_1.19.2.jar, it does not contain dependency information.
+[04set2023 12:10:36.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar, it does not contain dependency information.
+[04set2023 12:10:36.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.19.2-43.2.21.jar, it does not contain dependency information.
+[04set2023 12:10:36.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.19.2-43.2.21.jar, it does not contain dependency information.
+[04set2023 12:10:36.322] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.19.2-43.2.21.jar, it does not contain dependency information.
+[04set2023 12:10:36.322] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.19.2-43.2.21.jar, it does not contain dependency information.
+[04set2023 12:10:36.358] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[04set2023 12:10:36.359] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
+[04set2023 12:10:36.362] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\MtcLeo05\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.21_mapped_official_1.19.2\forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[04set2023 12:10:36.363] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\botanypots-353928\4514735_mapped_official_1.19.2\botanypots-353928-4514735_mapped_official_1.19.2.jar
+[04set2023 12:10:36.363] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file botanypots-353928-4514735_mapped_official_1.19.2.jar with {botanypots} mods - versions {9.0.33}
+[04set2023 12:10:36.364] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\botanypots-353928\4514735_mapped_official_1.19.2\botanypots-353928-4514735_mapped_official_1.19.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[04set2023 12:10:36.364] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\bookshelf-228525\4556697_mapped_official_1.19.2\bookshelf-228525-4556697_mapped_official_1.19.2.jar
+[04set2023 12:10:36.364] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file bookshelf-228525-4556697_mapped_official_1.19.2.jar with {bookshelf} mods - versions {16.3.20}
+[04set2023 12:10:36.365] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\bookshelf-228525\4556697_mapped_official_1.19.2\bookshelf-228525-4556697_mapped_official_1.19.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[04set2023 12:10:36.365] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[04set2023 12:10:36.365] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.2.21}
+[04set2023 12:10:36.366] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[04set2023 12:10:36.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[04set2023 12:10:36.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[04set2023 12:10:36.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[04set2023 12:10:36.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[04set2023 12:10:36.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[04set2023 12:10:36.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[04set2023 12:10:36.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\resources\main
+[04set2023 12:10:36.393] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {qualitycrops} mods - versions {1.19.2-1.0.4}
+[04set2023 12:10:36.393] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[04set2023 12:10:36.393] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\appleskin-248787\3872808_mapped_official_1.19.2\appleskin-248787-3872808_mapped_official_1.19.2.jar
+[04set2023 12:10:36.394] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file appleskin-248787-3872808_mapped_official_1.19.2.jar with {appleskin} mods - versions {2.4.2+mc1.19}
+[04set2023 12:10:36.394] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\appleskin-248787\3872808_mapped_official_1.19.2\appleskin-248787-3872808_mapped_official_1.19.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[04set2023 12:10:36.394] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.19.2-forge\11.6.0.1016_mapped_official_1.19.2\jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar
+[04set2023 12:10:36.395] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar with {jei} mods - versions {11.6.0.1016}
+[04set2023 12:10:36.395] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\MtcLeo05\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.19.2-forge\11.6.0.1016_mapped_official_1.19.2\jei-1.19.2-forge-11.6.0.1016_mapped_official_1.19.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[04set2023 12:10:36.396] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[04set2023 12:10:36.404] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[04set2023 12:10:36.404] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[04set2023 12:10:36.405] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 43
+[04set2023 12:10:36.405] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 43
+[04set2023 12:10:36.408] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[04set2023 12:10:36.408] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[04set2023 12:10:36.408] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[04set2023 12:10:36.410] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 9 mod requirements (9 mandatory, 0 optional)
+[04set2023 12:10:36.410] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[04set2023 12:10:36.708] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 30289 method mappings from methods.csv
+[04set2023 12:10:36.729] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28897 field mappings from fields.csv
+[04set2023 12:10:36.771] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[04set2023 12:10:36.771] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[04set2023 12:10:36.772] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[04set2023 12:10:36.772] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[04set2023 12:10:36.772] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[04set2023 12:10:36.772] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[04set2023 12:10:36.875] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[04set2023 12:10:36.875] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[04set2023 12:10:36.934] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[04set2023 12:10:36.935] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[04set2023 12:10:36.987] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[04set2023 12:10:37.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@70e94ecb to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[04set2023 12:10:37.008] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5de6cf3a to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[04set2023 12:10:37.009] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4cc36c19 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[04set2023 12:10:37.009] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5a3a1bf9 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[04set2023 12:10:37.009] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2100d047 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[04set2023 12:10:37.010] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4af45442 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[04set2023 12:10:37.010] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1d805aa1 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[04set2023 12:10:37.010] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@176f7f3b to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[04set2023 12:10:37.010] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@30ca0779 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[04set2023 12:10:37.010] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[04set2023 12:10:37.392] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[04set2023 12:10:37.392] [main/DEBUG] [mixin/]: Registering mixin config: QualityCrops.mixins.json
+[04set2023 12:10:37.408] [main/DEBUG] [mixin/]: Compatibility level JAVA_8 specified by QualityCrops.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[04set2023 12:10:37.409] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[04set2023 12:10:37.409] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[04set2023 12:10:37.409] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[04set2023 12:10:37.409] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[04set2023 12:10:37.409] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[04set2023 12:10:37.409] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[04set2023 12:10:37.409] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[04set2023 12:10:37.410] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(botanypots)
+[04set2023 12:10:37.410] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(botanypots)
+[04set2023 12:10:37.410] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(botanypots)
+[04set2023 12:10:37.410] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(botanypots)
+[04set2023 12:10:37.410] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(botanypots)
+[04set2023 12:10:37.410] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(botanypots)]
+[04set2023 12:10:37.410] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(bookshelf)
+[04set2023 12:10:37.410] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(bookshelf)
+[04set2023 12:10:37.410] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(bookshelf)
+[04set2023 12:10:37.411] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(bookshelf)
+[04set2023 12:10:37.411] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(bookshelf)
+[04set2023 12:10:37.411] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bookshelf)]
+[04set2023 12:10:37.411] [main/DEBUG] [mixin/]: Registering mixin config: bookshelf.common.mixins.json
+[04set2023 12:10:37.412] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by bookshelf.common.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[04set2023 12:10:37.415] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04set2023 12:10:37.415] [main/DEBUG] [mixin/]: Registering mixin config: bookshelf.forge.mixins.json
+[04set2023 12:10:37.417] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[04set2023 12:10:37.417] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[04set2023 12:10:37.420] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[04set2023 12:10:37.421] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[04set2023 12:10:37.421] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[04set2023 12:10:37.421] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[04set2023 12:10:37.421] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(qualitycrops)
+[04set2023 12:10:37.421] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(qualitycrops)
+[04set2023 12:10:37.421] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(qualitycrops)
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(qualitycrops)
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(qualitycrops)
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(qualitycrops)]
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(appleskin)
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(appleskin)
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(appleskin)
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(appleskin)
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(appleskin)
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(appleskin)]
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jei)
+[04set2023 12:10:37.422] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jei)
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jei)
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jei)
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jei)
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: inject() running with 8 agents
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(botanypots)]
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bookshelf)]
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(qualitycrops)]
+[04set2023 12:10:37.423] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(appleskin)]
+[04set2023 12:10:37.424] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[04set2023 12:10:37.424] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\MtcLeo05\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, QualityCrops, --all, --output, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\src\generated\resources, --existing, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\src\main\resources]
+[04set2023 12:10:37.480] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[04set2023 12:10:37.481] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[04set2023 12:10:37.481] [main/DEBUG] [mixin/]: Selecting config QualityCrops.mixins.json
+[04set2023 12:10:37.483] [main/WARN] [mixin/]: Reference map 'QualityCrops.refmap.json' for QualityCrops.mixins.json could not be read. If this is a development environment you can ignore this message
+[04set2023 12:10:37.484] [main/DEBUG] [mixin/]: Selecting config bookshelf.common.mixins.json
+[04set2023 12:10:37.733] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\createSrgToMcp\output.srg
+[04set2023 12:10:37.733] [main/DEBUG] [mixin/]: Selecting config bookshelf.forge.mixins.json
+[04set2023 12:10:37.735] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\createSrgToMcp\output.srg
+[04set2023 12:10:37.735] [main/DEBUG] [mixin/]: Preparing QualityCrops.mixins.json (1)
+[04set2023 12:10:37.780] [main/DEBUG] [mixin/]: Preparing bookshelf.common.mixins.json (19)
+[04set2023 12:10:37.824] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[04set2023 12:10:37.914] [main/DEBUG] [mixin/]: Preparing bookshelf.forge.mixins.json (1)
+[04set2023 12:10:37.932] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[04set2023 12:10:37.934] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[04set2023 12:10:37.936] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[04set2023 12:10:37.938] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[04set2023 12:10:37.940] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[04set2023 12:10:37.941] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[04set2023 12:10:37.953] [main/DEBUG] [mixin/]: Prepared 21 mixins in 0,469 sec (22,3ms avg) (0ms load, 0ms transform, 0ms plugin)
+[04set2023 12:10:37.965] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[04set2023 12:10:37.971] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[04set2023 12:10:37.972] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[04set2023 12:10:38.065] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [QualityCrops]
+[04set2023 12:10:38.227] [main/DEBUG] [mixin/]: Mixing entity.AccessorEntity from bookshelf.common.mixins.json into net.minecraft.world.entity.Entity
+[04set2023 12:10:38.282] [main/DEBUG] [mixin/]: Mixing entity.AccessorLivingEntity from bookshelf.common.mixins.json into net.minecraft.world.entity.LivingEntity
+[04set2023 12:10:38.350] [main/DEBUG] [mixin/]: Mixing entity.MixinLivingEntity from bookshelf.common.mixins.json into net.minecraft.world.entity.LivingEntity
+[04set2023 12:10:38.359] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[04set2023 12:10:38.479] [main/DEBUG] [mixin/]: Mixing item.AccessorItem from bookshelf.common.mixins.json into net.minecraft.world.item.Item
+[04set2023 12:10:38.558] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[04set2023 12:10:38.637] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[04set2023 12:10:38.672] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[04set2023 12:10:38.722] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[04set2023 12:10:38.947] [main/DEBUG] [mixin/]: Mixing block.entity.MixinBaseContainerBlockEntity from bookshelf.forge.mixins.json into net.minecraft.world.level.block.entity.BaseContainerBlockEntity
+[04set2023 12:10:39.138] [main/DEBUG] [mixin/]: Mixing inventory.AccessorCraftingMenu from bookshelf.common.mixins.json into net.minecraft.world.inventory.CraftingMenu
+[04set2023 12:10:39.150] [main/DEBUG] [mixin/]: Mixing block.entity.AccessorSignBlockEntity from bookshelf.common.mixins.json into net.minecraft.world.level.block.entity.SignBlockEntity
+[04set2023 12:10:39.179] [main/DEBUG] [mixin/]: Mixing entity.AccessorMob from bookshelf.common.mixins.json into net.minecraft.world.entity.Mob
+[04set2023 12:10:39.231] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[04set2023 12:10:39.527] [main/DEBUG] [mixin/]: Mixing entity.MixinLightningBolt from bookshelf.common.mixins.json into net.minecraft.world.entity.LightningBolt
+[04set2023 12:10:40.057] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[04set2023 12:10:40.102] [main/DEBUG] [mixin/]: Mixing ChickenMixin from QualityCrops.mixins.json into net.minecraft.world.entity.animal.Chicken
+[04set2023 12:10:40.104] [main/DEBUG] [mixin/]: QualityCrops.mixins.json:ChickenMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[04set2023 12:10:40.468] [main/DEBUG] [mixin/]: Mixing util.random.AccessorWeightedRandomList from bookshelf.common.mixins.json into net.minecraft.util.random.WeightedRandomList
+[04set2023 12:10:40.608] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[04set2023 12:10:40.934] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[04set2023 12:10:40.989] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[04set2023 12:10:40.990] [main/DEBUG] [mixin/]: Mixing effect.AccessorMobEffectInstance from bookshelf.common.mixins.json into net.minecraft.world.effect.MobEffectInstance
+[04set2023 12:10:41.066] [main/DEBUG] [mixin/]: Mixing item.crafting.AccessorShapedRecipe from bookshelf.common.mixins.json into net.minecraft.world.item.crafting.ShapedRecipe
+[04set2023 12:10:41.066] [main/DEBUG] [mixin/]: Renaming @Invoker method bookshelf$keyFromJson(Lcom/google/gson/JsonObject;)Ljava/util/Map; to bookshelf$keyFromJson_$md$8dce2b$0 in bookshelf.common.mixins.json:item.crafting.AccessorShapedRecipe
+[04set2023 12:10:41.071] [main/DEBUG] [mixin/]: Renaming @Invoker method bookshelf$shrink([Ljava/lang/String;)[Ljava/lang/String; to bookshelf$shrink_$md$8dce2b$1 in bookshelf.common.mixins.json:item.crafting.AccessorShapedRecipe
+[04set2023 12:10:41.074] [main/DEBUG] [mixin/]: Renaming @Invoker method bookshelf$patternFromJson(Lcom/google/gson/JsonArray;)[Ljava/lang/String; to bookshelf$patternFromJson_$md$8dce2b$2 in bookshelf.common.mixins.json:item.crafting.AccessorShapedRecipe
+[04set2023 12:10:41.077] [main/DEBUG] [mixin/]: Renaming @Invoker method bookshelf$dissolvePattern([Ljava/lang/String;Ljava/util/Map;II)Lnet/minecraft/core/NonNullList; to bookshelf$dissolvePattern_$md$8dce2b$3 in bookshelf.common.mixins.json:item.crafting.AccessorShapedRecipe
+[04set2023 12:10:41.253] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
+[04set2023 12:10:41.259] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3af7d855 - got cpw.mods.cl.ModuleClassLoader@2bc12da
+[04set2023 12:10:41.259] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.darkhax.botanypots.BotanyPotsForge
+[04set2023 12:10:41.263] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3af7d855 - got cpw.mods.cl.ModuleClassLoader@2bc12da
+[04set2023 12:10:41.263] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.darkhax.bookshelf.BookshelfForge
+[04set2023 12:10:41.264] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3af7d855 - got cpw.mods.cl.ModuleClassLoader@2bc12da
+[04set2023 12:10:41.264] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[04set2023 12:10:41.271] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3af7d855 - got cpw.mods.cl.ModuleClassLoader@2bc12da
+[04set2023 12:10:41.272] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.mtcleo05.qualitycrops.QualityCrops
+[04set2023 12:10:41.273] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3af7d855 - got cpw.mods.cl.ModuleClassLoader@2bc12da
+[04set2023 12:10:41.273] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for squeek.appleskin.AppleSkin
+[04set2023 12:10:41.273] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3af7d855 - got cpw.mods.cl.ModuleClassLoader@2bc12da
+[04set2023 12:10:41.273] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for mezz.jei.forge.JustEnoughItems
+[04set2023 12:10:41.284] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.util.PlatformHelperForge@1827da93 for service interface net.darkhax.bookshelf.api.util.IPlatformHelper.
+[04set2023 12:10:41.288] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.event.EventHelperForge@3339af72 for service interface net.darkhax.bookshelf.api.event.IEventHelper.
+[04set2023 12:10:41.297] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.registry.GameRegistriesForge@3d2771ab for service interface net.darkhax.bookshelf.api.registry.IGameRegistries.
+[04set2023 12:10:41.300] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.data.TagHelperForge@748229b5 for service interface net.darkhax.bookshelf.api.data.ITagHelper.
+[04set2023 12:10:41.305] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.util.InventoryHelperForge@5ecae750 for service interface net.darkhax.bookshelf.api.util.IInventoryHelper.
+[04set2023 12:10:41.307] [modloading-worker-0/DEBUG] [Bookshelf/]: Loaded net.darkhax.bookshelf.impl.util.ConstructHelperForge@63c29fc2 for service interface net.darkhax.bookshelf.api.util.IConstructHelper.
+[04set2023 12:10:41.309] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 43.2 from cpw.mods.modlauncher.TransformingClassLoader@3af7d855
+[04set2023 12:10:41.310] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 43.2.21
+[04set2023 12:10:41.310] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 43.2
+[04set2023 12:10:41.310] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[04set2023 12:10:41.311] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.19.2 from cpw.mods.modlauncher.TransformingClassLoader@3af7d855
+[04set2023 12:10:41.311] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.19.2
+[04set2023 12:10:41.311] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220805.130853
+[04set2023 12:10:41.311] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.21, for MC 1.19.2 with MCP 20220805.130853
+[04set2023 12:10:41.311] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.21 Initialized
+[04set2023 12:10:41.315] [modloading-worker-0/ERROR] [Bookshelf/]: Mod {} is using deprecated binbBlockRenderLayers option.
+[04set2023 12:10:41.319] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
+[04set2023 12:10:41.321] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file appleskin-client.toml for appleskin tracking
+[04set2023 12:10:41.326] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for appleskin
+[04set2023 12:10:41.332] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[04set2023 12:10:41.338] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for botanypots
+[04set2023 12:10:41.338] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[04set2023 12:10:41.338] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[04set2023 12:10:41.338] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[04set2023 12:10:41.338] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[04set2023 12:10:41.339] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[04set2023 12:10:41.339] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[04set2023 12:10:41.339] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[04set2023 12:10:41.340] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for bookshelf
+[04set2023 12:10:41.340] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for qualitycrops
+[04set2023 12:10:41.341] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.mtcleo05.qualitycrops.datagen.DataGenerators to MOD
+[04set2023 12:10:41.341] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.darkhax.bookshelf.impl.gametest.BookshelfForgeGameTests to MOD
+[04set2023 12:10:41.341] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.darkhax.botanypots.BotanyPotsForgeClient to MOD
+[04set2023 12:10:41.344] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.mtcleo05.qualitycrops.QualityCrops$ClientModEvents to MOD
+[04set2023 12:10:41.369] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[04set2023 12:10:41.370] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[04set2023 12:10:41.370] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[04set2023 12:10:41.370] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[04set2023 12:10:41.371] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[04set2023 12:10:41.371] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[04set2023 12:10:41.371] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
 java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
 	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
@@ -253,8 +359,8 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[20lug2023 10:04:37.347] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
-[20lug2023 10:04:37.348] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+[04set2023 12:10:41.377] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[04set2023 12:10:41.377] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
 java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
 	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
 	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
@@ -283,37 +389,44 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[20lug2023 10:04:37.351] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
-[20lug2023 10:04:37.352] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
-[20lug2023 10:04:37.353] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8547991552 bytes (maybe)
-[20lug2023 10:04:37.354] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\MtcLeo05\AppData\Local\Temp (java.io.tmpdir)
-[20lug2023 10:04:37.354] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[20lug2023 10:04:37.354] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
-[20lug2023 10:04:37.355] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
-[20lug2023 10:04:37.355] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[20lug2023 10:04:37.356] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
-[20lug2023 10:04:37.357] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
-[20lug2023 10:04:37.383] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
-[20lug2023 10:04:37.398] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
-[20lug2023 10:04:37.398] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
-[20lug2023 10:04:37.398] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
-[20lug2023 10:04:37.424] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
-[20lug2023 10:04:37.424] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
-[20lug2023 10:04:37.426] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
-[20lug2023 10:04:37.429] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.data.ModelDataManager to FORGE
-[20lug2023 10:04:37.430] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
-[20lug2023 10:04:37.438] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ClientForgeMod to MOD
-[20lug2023 10:04:37.462] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
-[20lug2023 10:04:37.463] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
-[20lug2023 10:04:37.463] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
-[20lug2023 10:04:37.463] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
-[20lug2023 10:04:37.697] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MtcLeo05/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.21_mapped_official_1.19.2/forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
-[20lug2023 10:04:37.697] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MtcLeo05/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.21_mapped_official_1.19.2/forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
-[20lug2023 10:04:38.021] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[20lug2023 10:04:38.071] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 49 ms
-[20lug2023 10:04:38.071] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
-[20lug2023 10:04:38.076] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 4 ms
-[20lug2023 10:04:38.076] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: qualitycrops
-[20lug2023 10:04:38.428] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: qualitycrops finished after 352 ms
-[20lug2023 10:04:38.429] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 407 ms
-[20lug2023 10:04:38.445] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 125, old count: 0, new count: 126, removed stale: 0, written: 125
+[04set2023 12:10:41.379] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[04set2023 12:10:41.379] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[04set2023 12:10:41.379] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8547991552 bytes (maybe)
+[04set2023 12:10:41.379] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\MtcLeo05\AppData\Local\Temp (java.io.tmpdir)
+[04set2023 12:10:41.379] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[04set2023 12:10:41.379] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[04set2023 12:10:41.380] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[04set2023 12:10:41.380] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[04set2023 12:10:41.380] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[04set2023 12:10:41.381] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[04set2023 12:10:41.397] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[04set2023 12:10:41.405] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[04set2023 12:10:41.405] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[04set2023 12:10:41.405] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[04set2023 12:10:41.414] [modloading-worker-0/DEBUG] [mixin/]: Mixing packs.resources.MixinSimpleJsonResourceReloadListener from bookshelf.common.mixins.json into net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener
+[04set2023 12:10:41.415] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$prepare$0(Ljava/util/Map$Entry;)Z to md8dce2b$lambda$prepare$0$0 in bookshelf.common.mixins.json:packs.resources.MixinSimpleJsonResourceReloadListener
+[04set2023 12:10:41.430] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[04set2023 12:10:41.430] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[04set2023 12:10:41.432] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[04set2023 12:10:41.436] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.data.ModelDataManager to FORGE
+[04set2023 12:10:41.437] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[04set2023 12:10:41.444] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ClientForgeMod to MOD
+[04set2023 12:10:41.471] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[04set2023 12:10:41.472] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[04set2023 12:10:41.472] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[04set2023 12:10:41.472] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[04set2023 12:10:41.667] [main/DEBUG] [botanypots/]: Built 98 minecraft:block entries. Took 188,67ms.
+[04set2023 12:10:41.677] [main/DEBUG] [botanypots/]: Built 98 minecraft:item entries. Took 1,12ms.
+[04set2023 12:10:41.687] [main/DEBUG] [botanypots/]: Built 1 minecraft:block_entity_type entries. Took 0,94ms.
+[04set2023 12:10:41.692] [main/DEBUG] [botanypots/]: Built 1 minecraft:menu entries. Took 2,23ms.
+[04set2023 12:10:41.693] [main/DEBUG] [botanypots/]: Built 4 minecraft:recipe_type entries. Took 0,39ms.
+[04set2023 12:10:41.695] [main/DEBUG] [botanypots/]: Built 4 minecraft:recipe_serializer entries. Took 1,14ms.
+[04set2023 12:10:41.696] [main/DEBUG] [bookshelf/]: Built 2 minecraft:recipe_serializer entries. Took 1,25ms.
+[04set2023 12:10:41.710] [main/DEBUG] [bookshelf/]: Built 2 minecraft:command_argument_type entries. Took 2,46ms.
+[04set2023 12:10:41.767] [main/DEBUG] [mixin/]: Mixing inventory.AccessorInventoryMenu from bookshelf.common.mixins.json into net.minecraft.world.inventory.InventoryMenu
+[04set2023 12:10:41.791] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MtcLeo05/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.21_mapped_official_1.19.2/forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[04set2023 12:10:41.791] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MtcLeo05/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.21_mapped_official_1.19.2/forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[04set2023 12:10:42.045] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[04set2023 12:10:42.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 167 ms
+[04set2023 12:10:42.214] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 168 ms
+[04set2023 12:10:42.227] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 216, old count: 0, new count: 217, removed stale: 0, written: 216
