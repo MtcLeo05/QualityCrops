@@ -325,6 +325,8 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.20.1\build\
   data/forge/tags/items/diamond/cooked_fishes/salmon.json
   data/forge/tags/items/diamond/cooked_mutton.json
   data/forge/tags/items/diamond/cooked_pork.json
+  data/forge/tags/items/diamond/raw_beef.json
+  data/forge/tags/items/diamond/raw_chicken.json
   data/forge/tags/items/diamond/raw_fishes.json
   data/forge/tags/items/diamond/raw_fishes/
   data/forge/tags/items/diamond/raw_fishes/cod.json
@@ -333,10 +335,17 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.20.1\build\
   data/forge/tags/items/dough/
   data/forge/tags/items/dough/wheat.json
   data/forge/tags/items/gold/
+  data/forge/tags/items/gold/cooked_beef.json
+  data/forge/tags/items/gold/cooked_chicken.json
   data/forge/tags/items/gold/cooked_fishes.json
   data/forge/tags/items/gold/cooked_fishes/
   data/forge/tags/items/gold/cooked_fishes/cod.json
   data/forge/tags/items/gold/cooked_fishes/salmon.json
+  data/forge/tags/items/gold/cooked_mutton.json
+  data/forge/tags/items/gold/cooked_pork.json
+  data/forge/tags/items/gold/raw_beef.json
+  data/forge/tags/items/gold/raw_chicken.json
+  data/forge/tags/items/gold/raw_fishes.json
   data/forge/tags/items/gold/raw_fishes/
   data/forge/tags/items/gold/raw_fishes/cod.json
   data/forge/tags/items/gold/raw_fishes/cooked_beef.json
@@ -346,6 +355,7 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.20.1\build\
   data/forge/tags/items/gold/raw_fishes/raw_fishes.json
   data/forge/tags/items/gold/raw_fishes/raw_pork.json
   data/forge/tags/items/gold/raw_fishes/salmon.json
+  data/forge/tags/items/gold/raw_pork.json
   data/forge/tags/items/iron/
   data/forge/tags/items/iron/cooked_beef.json
   data/forge/tags/items/iron/cooked_chicken.json
@@ -355,6 +365,8 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.20.1\build\
   data/forge/tags/items/iron/cooked_fishes/salmon.json
   data/forge/tags/items/iron/cooked_mutton.json
   data/forge/tags/items/iron/cooked_pork.json
+  data/forge/tags/items/iron/raw_beef.json
+  data/forge/tags/items/iron/raw_chicken.json
   data/forge/tags/items/iron/raw_fishes.json
   data/forge/tags/items/iron/raw_fishes/
   data/forge/tags/items/iron/raw_fishes/cod.json
@@ -559,6 +571,117 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.20.1\build\
   data/qualitycrops/
   data/qualitycrops/advancements/
   data/qualitycrops/advancements/recipes/
+  data/qualitycrops/advancements/recipes/decorations/
+  data/qualitycrops/advancements/recipes/decorations/brown_mushroom_from_diamond.json
+  data/qualitycrops/advancements/recipes/decorations/brown_mushroom_from_gold.json
+  data/qualitycrops/advancements/recipes/decorations/brown_mushroom_from_iron.json
+  data/qualitycrops/advancements/recipes/decorations/kelp_from_diamond.json
+  data/qualitycrops/advancements/recipes/decorations/kelp_from_gold.json
+  data/qualitycrops/advancements/recipes/decorations/kelp_from_iron.json
+  data/qualitycrops/advancements/recipes/decorations/red_mushroom_from_diamond.json
+  data/qualitycrops/advancements/recipes/decorations/red_mushroom_from_gold.json
+  data/qualitycrops/advancements/recipes/decorations/red_mushroom_from_iron.json
+  data/qualitycrops/advancements/recipes/food/
+  data/qualitycrops/advancements/recipes/food/apple_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/apple_from_gold.json
+  data/qualitycrops/advancements/recipes/food/apple_from_iron.json
+  data/qualitycrops/advancements/recipes/food/baked_potato_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/baked_potato_from_gold.json
+  data/qualitycrops/advancements/recipes/food/baked_potato_from_iron.json
+  data/qualitycrops/advancements/recipes/food/beef_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/beef_from_gold.json
+  data/qualitycrops/advancements/recipes/food/beef_from_iron.json
+  data/qualitycrops/advancements/recipes/food/beetroot_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/beetroot_from_gold.json
+  data/qualitycrops/advancements/recipes/food/beetroot_from_iron.json
+  data/qualitycrops/advancements/recipes/food/beetroot_soup_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/beetroot_soup_from_gold.json
+  data/qualitycrops/advancements/recipes/food/beetroot_soup_from_iron.json
+  data/qualitycrops/advancements/recipes/food/bread_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/bread_from_gold.json
+  data/qualitycrops/advancements/recipes/food/bread_from_iron.json
+  data/qualitycrops/advancements/recipes/food/carrot_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/carrot_from_gold.json
+  data/qualitycrops/advancements/recipes/food/carrot_from_iron.json
+  data/qualitycrops/advancements/recipes/food/chicken_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/chicken_from_gold.json
+  data/qualitycrops/advancements/recipes/food/chicken_from_iron.json
+  data/qualitycrops/advancements/recipes/food/cod_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/cod_from_gold.json
+  data/qualitycrops/advancements/recipes/food/cod_from_iron.json
+  data/qualitycrops/advancements/recipes/food/cooked_beef_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/cooked_beef_from_gold.json
+  data/qualitycrops/advancements/recipes/food/cooked_beef_from_iron.json
+  data/qualitycrops/advancements/recipes/food/cooked_chicken_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/cooked_chicken_from_gold.json
+  data/qualitycrops/advancements/recipes/food/cooked_chicken_from_iron.json
+  data/qualitycrops/advancements/recipes/food/cooked_cod_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/cooked_cod_from_gold.json
+  data/qualitycrops/advancements/recipes/food/cooked_cod_from_iron.json
+  data/qualitycrops/advancements/recipes/food/cooked_mutton_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/cooked_mutton_from_gold.json
+  data/qualitycrops/advancements/recipes/food/cooked_mutton_from_iron.json
+  data/qualitycrops/advancements/recipes/food/cooked_porkchop_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/cooked_porkchop_from_gold.json
+  data/qualitycrops/advancements/recipes/food/cooked_porkchop_from_iron.json
+  data/qualitycrops/advancements/recipes/food/cooked_rabbit_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/cooked_rabbit_from_gold.json
+  data/qualitycrops/advancements/recipes/food/cooked_rabbit_from_iron.json
+  data/qualitycrops/advancements/recipes/food/cooked_salmon_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/cooked_salmon_from_gold.json
+  data/qualitycrops/advancements/recipes/food/cooked_salmon_from_iron.json
+  data/qualitycrops/advancements/recipes/food/cookie_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/cookie_from_gold.json
+  data/qualitycrops/advancements/recipes/food/cookie_from_iron.json
+  data/qualitycrops/advancements/recipes/food/dried_kelp_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/dried_kelp_from_gold.json
+  data/qualitycrops/advancements/recipes/food/dried_kelp_from_iron.json
+  data/qualitycrops/advancements/recipes/food/melon_slice_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/melon_slice_from_gold.json
+  data/qualitycrops/advancements/recipes/food/melon_slice_from_iron.json
+  data/qualitycrops/advancements/recipes/food/mushroom_stew_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/mushroom_stew_from_gold.json
+  data/qualitycrops/advancements/recipes/food/mushroom_stew_from_iron.json
+  data/qualitycrops/advancements/recipes/food/mutton_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/mutton_from_gold.json
+  data/qualitycrops/advancements/recipes/food/mutton_from_iron.json
+  data/qualitycrops/advancements/recipes/food/poisonous_potato_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/poisonous_potato_from_gold.json
+  data/qualitycrops/advancements/recipes/food/poisonous_potato_from_iron.json
+  data/qualitycrops/advancements/recipes/food/porkchop_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/porkchop_from_gold.json
+  data/qualitycrops/advancements/recipes/food/porkchop_from_iron.json
+  data/qualitycrops/advancements/recipes/food/potato_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/potato_from_gold.json
+  data/qualitycrops/advancements/recipes/food/potato_from_iron.json
+  data/qualitycrops/advancements/recipes/food/pufferfish_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/pufferfish_from_gold.json
+  data/qualitycrops/advancements/recipes/food/pufferfish_from_iron.json
+  data/qualitycrops/advancements/recipes/food/pumpkin_pie_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/pumpkin_pie_from_gold.json
+  data/qualitycrops/advancements/recipes/food/pumpkin_pie_from_iron.json
+  data/qualitycrops/advancements/recipes/food/rabbit_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/rabbit_from_gold.json
+  data/qualitycrops/advancements/recipes/food/rabbit_from_iron.json
+  data/qualitycrops/advancements/recipes/food/rabbit_stew_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/rabbit_stew_from_gold.json
+  data/qualitycrops/advancements/recipes/food/rabbit_stew_from_iron.json
+  data/qualitycrops/advancements/recipes/food/salmon_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/salmon_from_gold.json
+  data/qualitycrops/advancements/recipes/food/salmon_from_iron.json
+  data/qualitycrops/advancements/recipes/food/tropical_fish_from_diamond.json
+  data/qualitycrops/advancements/recipes/food/tropical_fish_from_gold.json
+  data/qualitycrops/advancements/recipes/food/tropical_fish_from_iron.json
+  data/qualitycrops/advancements/recipes/misc/
+  data/qualitycrops/advancements/recipes/misc/cocoa_beans_from_diamond.json
+  data/qualitycrops/advancements/recipes/misc/cocoa_beans_from_gold.json
+  data/qualitycrops/advancements/recipes/misc/cocoa_beans_from_iron.json
+  data/qualitycrops/advancements/recipes/misc/egg_from_diamond.json
+  data/qualitycrops/advancements/recipes/misc/egg_from_gold.json
+  data/qualitycrops/advancements/recipes/misc/egg_from_iron.json
+  data/qualitycrops/advancements/recipes/misc/wheat_from_diamond.json
+  data/qualitycrops/advancements/recipes/misc/wheat_from_gold.json
+  data/qualitycrops/advancements/recipes/misc/wheat_from_iron.json
   data/qualitycrops/advancements/recipes/qualitycrops_items/
   data/qualitycrops/advancements/recipes/qualitycrops_items/beetroot_soup_diamond.json
   data/qualitycrops/advancements/recipes/qualitycrops_items/beetroot_soup_gold.json
@@ -617,29 +740,137 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.20.1\build\
   data/qualitycrops/loot_modifiers/tropical_fish.json
   data/qualitycrops/loot_modifiers/wheat.json
   data/qualitycrops/recipes/
+  data/qualitycrops/recipes/apple_from_diamond.json
+  data/qualitycrops/recipes/apple_from_gold.json
+  data/qualitycrops/recipes/apple_from_iron.json
+  data/qualitycrops/recipes/baked_potato_from_diamond.json
+  data/qualitycrops/recipes/baked_potato_from_gold.json
+  data/qualitycrops/recipes/baked_potato_from_iron.json
+  data/qualitycrops/recipes/beef_from_diamond.json
+  data/qualitycrops/recipes/beef_from_gold.json
+  data/qualitycrops/recipes/beef_from_iron.json
+  data/qualitycrops/recipes/beetroot_from_diamond.json
+  data/qualitycrops/recipes/beetroot_from_gold.json
+  data/qualitycrops/recipes/beetroot_from_iron.json
   data/qualitycrops/recipes/beetroot_soup_diamond.json
+  data/qualitycrops/recipes/beetroot_soup_from_diamond.json
+  data/qualitycrops/recipes/beetroot_soup_from_gold.json
+  data/qualitycrops/recipes/beetroot_soup_from_iron.json
   data/qualitycrops/recipes/beetroot_soup_gold.json
   data/qualitycrops/recipes/beetroot_soup_iron.json
+  data/qualitycrops/recipes/bread_from_diamond.json
+  data/qualitycrops/recipes/bread_from_gold.json
+  data/qualitycrops/recipes/bread_from_iron.json
+  data/qualitycrops/recipes/brown_mushroom_from_diamond.json
+  data/qualitycrops/recipes/brown_mushroom_from_gold.json
+  data/qualitycrops/recipes/brown_mushroom_from_iron.json
+  data/qualitycrops/recipes/carrot_from_diamond.json
+  data/qualitycrops/recipes/carrot_from_gold.json
+  data/qualitycrops/recipes/carrot_from_iron.json
+  data/qualitycrops/recipes/chicken_from_diamond.json
+  data/qualitycrops/recipes/chicken_from_gold.json
+  data/qualitycrops/recipes/chicken_from_iron.json
+  data/qualitycrops/recipes/cocoa_beans_from_diamond.json
   data/qualitycrops/recipes/cocoa_beans_from_diamond_quality.json
+  data/qualitycrops/recipes/cocoa_beans_from_gold.json
   data/qualitycrops/recipes/cocoa_beans_from_gold_quality.json
+  data/qualitycrops/recipes/cocoa_beans_from_iron.json
   data/qualitycrops/recipes/cocoa_beans_from_iron_quality.json
+  data/qualitycrops/recipes/cod_from_diamond.json
+  data/qualitycrops/recipes/cod_from_gold.json
+  data/qualitycrops/recipes/cod_from_iron.json
+  data/qualitycrops/recipes/cooked_beef_from_diamond.json
+  data/qualitycrops/recipes/cooked_beef_from_gold.json
+  data/qualitycrops/recipes/cooked_beef_from_iron.json
+  data/qualitycrops/recipes/cooked_chicken_from_diamond.json
+  data/qualitycrops/recipes/cooked_chicken_from_gold.json
+  data/qualitycrops/recipes/cooked_chicken_from_iron.json
+  data/qualitycrops/recipes/cooked_cod_from_diamond.json
+  data/qualitycrops/recipes/cooked_cod_from_gold.json
+  data/qualitycrops/recipes/cooked_cod_from_iron.json
+  data/qualitycrops/recipes/cooked_mutton_from_diamond.json
+  data/qualitycrops/recipes/cooked_mutton_from_gold.json
+  data/qualitycrops/recipes/cooked_mutton_from_iron.json
+  data/qualitycrops/recipes/cooked_porkchop_from_diamond.json
+  data/qualitycrops/recipes/cooked_porkchop_from_gold.json
+  data/qualitycrops/recipes/cooked_porkchop_from_iron.json
+  data/qualitycrops/recipes/cooked_rabbit_from_diamond.json
+  data/qualitycrops/recipes/cooked_rabbit_from_gold.json
+  data/qualitycrops/recipes/cooked_rabbit_from_iron.json
+  data/qualitycrops/recipes/cooked_salmon_from_diamond.json
+  data/qualitycrops/recipes/cooked_salmon_from_gold.json
+  data/qualitycrops/recipes/cooked_salmon_from_iron.json
   data/qualitycrops/recipes/cookie_diamond.json
+  data/qualitycrops/recipes/cookie_from_diamond.json
+  data/qualitycrops/recipes/cookie_from_gold.json
+  data/qualitycrops/recipes/cookie_from_iron.json
   data/qualitycrops/recipes/cookie_gold.json
   data/qualitycrops/recipes/cookie_iron.json
   data/qualitycrops/recipes/dough.json
   data/qualitycrops/recipes/dough_diamond.json
   data/qualitycrops/recipes/dough_gold.json
   data/qualitycrops/recipes/dough_iron.json
+  data/qualitycrops/recipes/dried_kelp_from_diamond.json
+  data/qualitycrops/recipes/dried_kelp_from_gold.json
+  data/qualitycrops/recipes/dried_kelp_from_iron.json
+  data/qualitycrops/recipes/egg_from_diamond.json
+  data/qualitycrops/recipes/egg_from_gold.json
+  data/qualitycrops/recipes/egg_from_iron.json
+  data/qualitycrops/recipes/kelp_from_diamond.json
+  data/qualitycrops/recipes/kelp_from_gold.json
+  data/qualitycrops/recipes/kelp_from_iron.json
+  data/qualitycrops/recipes/melon_slice_from_diamond.json
+  data/qualitycrops/recipes/melon_slice_from_gold.json
+  data/qualitycrops/recipes/melon_slice_from_iron.json
   data/qualitycrops/recipes/mushroom_stew_diamond.json
+  data/qualitycrops/recipes/mushroom_stew_from_diamond.json
+  data/qualitycrops/recipes/mushroom_stew_from_gold.json
+  data/qualitycrops/recipes/mushroom_stew_from_iron.json
   data/qualitycrops/recipes/mushroom_stew_gold.json
   data/qualitycrops/recipes/mushroom_stew_iron.json
+  data/qualitycrops/recipes/mutton_from_diamond.json
+  data/qualitycrops/recipes/mutton_from_gold.json
+  data/qualitycrops/recipes/mutton_from_iron.json
+  data/qualitycrops/recipes/poisonous_potato_from_diamond.json
+  data/qualitycrops/recipes/poisonous_potato_from_gold.json
+  data/qualitycrops/recipes/poisonous_potato_from_iron.json
+  data/qualitycrops/recipes/porkchop_from_diamond.json
+  data/qualitycrops/recipes/porkchop_from_gold.json
+  data/qualitycrops/recipes/porkchop_from_iron.json
+  data/qualitycrops/recipes/potato_from_diamond.json
+  data/qualitycrops/recipes/potato_from_gold.json
+  data/qualitycrops/recipes/potato_from_iron.json
+  data/qualitycrops/recipes/pufferfish_from_diamond.json
+  data/qualitycrops/recipes/pufferfish_from_gold.json
+  data/qualitycrops/recipes/pufferfish_from_iron.json
   data/qualitycrops/recipes/pumpkin_pie_diamond.json
+  data/qualitycrops/recipes/pumpkin_pie_from_diamond.json
+  data/qualitycrops/recipes/pumpkin_pie_from_gold.json
+  data/qualitycrops/recipes/pumpkin_pie_from_iron.json
   data/qualitycrops/recipes/pumpkin_pie_gold.json
   data/qualitycrops/recipes/pumpkin_pie_iron.json
+  data/qualitycrops/recipes/rabbit_from_diamond.json
+  data/qualitycrops/recipes/rabbit_from_gold.json
+  data/qualitycrops/recipes/rabbit_from_iron.json
   data/qualitycrops/recipes/rabbit_stew_diamond_from_brown_mushroom.json
   data/qualitycrops/recipes/rabbit_stew_diamond_from_red_mushroom.json
+  data/qualitycrops/recipes/rabbit_stew_from_diamond.json
+  data/qualitycrops/recipes/rabbit_stew_from_gold.json
+  data/qualitycrops/recipes/rabbit_stew_from_iron.json
   data/qualitycrops/recipes/rabbit_stew_gold_from_brown_mushroom.json
   data/qualitycrops/recipes/rabbit_stew_gold_from_red_mushroom.json
   data/qualitycrops/recipes/rabbit_stew_iron_from_brown_mushroom.json
   data/qualitycrops/recipes/rabbit_stew_iron_from_red_mushroom.json
+  data/qualitycrops/recipes/red_mushroom_from_diamond.json
+  data/qualitycrops/recipes/red_mushroom_from_gold.json
+  data/qualitycrops/recipes/red_mushroom_from_iron.json
+  data/qualitycrops/recipes/salmon_from_diamond.json
+  data/qualitycrops/recipes/salmon_from_gold.json
+  data/qualitycrops/recipes/salmon_from_iron.json
+  data/qualitycrops/recipes/tropical_fish_from_diamond.json
+  data/qualitycrops/recipes/tropical_fish_from_gold.json
+  data/qualitycrops/recipes/tropical_fish_from_iron.json
+  data/qualitycrops/recipes/wheat_from_diamond.json
+  data/qualitycrops/recipes/wheat_from_gold.json
+  data/qualitycrops/recipes/wheat_from_iron.json
   pack.mcmeta
