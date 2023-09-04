@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:cooked_rabbit_iron"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_rabbit"
+  }
+}

@@ -157,6 +157,7 @@ Writing Output: C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.20.1\build\
   assets/qualitycrops/
   assets/qualitycrops/lang/
   assets/qualitycrops/lang/en_us.json
+  assets/qualitycrops/lang/zh_cn.json
   assets/qualitycrops/models/
   assets/qualitycrops/models/item/
   assets/qualitycrops/models/item/apple_diamond.json

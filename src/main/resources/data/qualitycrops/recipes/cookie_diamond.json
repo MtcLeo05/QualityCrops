@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:wheat"
+      "item": "qualitycrops:wheat_diamond"
     },
     {
       "item": "qualitycrops:cocoa_beans_diamond"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "qualitycrops:wheat_diamond"
     }
   ],
   "result": {

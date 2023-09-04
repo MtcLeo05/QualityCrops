@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "qualitycrops:cooked_salmon_from_iron"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "ironQuality": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "qualitycrops:cooked_salmon_iron"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ironQuality",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "qualitycrops:cooked_salmon_from_iron"
+    ]
+  }
+}

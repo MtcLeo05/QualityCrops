@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:egg_gold"
+    }
+  ],
+  "result": {
+    "item": "minecraft:egg"
+  }
+}

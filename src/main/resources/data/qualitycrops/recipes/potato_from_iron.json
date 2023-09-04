@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:potato_iron"
+    }
+  ],
+  "result": {
+    "item": "minecraft:potato"
+  }
+}

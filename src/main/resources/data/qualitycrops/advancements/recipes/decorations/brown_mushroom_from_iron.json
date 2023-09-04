@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "qualitycrops:brown_mushroom_from_iron"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "ironQuality": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "qualitycrops:brown_mushroom_iron"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ironQuality",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "qualitycrops:brown_mushroom_from_iron"
+    ]
+  }
+}

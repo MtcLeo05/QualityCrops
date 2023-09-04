@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:baked_potato_diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:baked_potato"
+  }
+}

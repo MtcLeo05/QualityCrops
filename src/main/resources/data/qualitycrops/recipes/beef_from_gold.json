@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:beef_gold"
+    }
+  ],
+  "result": {
+    "item": "minecraft:beef"
+  }
+}
