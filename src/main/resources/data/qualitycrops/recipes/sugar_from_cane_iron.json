@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:sugar_cane_iron"
+    }
+  ],
+  "result": {
+    "item": "qualitycrops:sugar_iron"
+  }
+}

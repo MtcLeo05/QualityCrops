@@ -25,6 +25,15 @@ public class Utils {
         return input.split(":");
     }
 
+    public static String removeQualityID(String input) {
+        int lastUnderscoreIndex = input.lastIndexOf("_");
+        if (lastUnderscoreIndex != -1) {
+            return input.substring(0, lastUnderscoreIndex);
+        } else {
+            return input;
+        }
+    }
+
 
     public static Item getItemFromID(String id, String quality){
         return getItemFromID(getQualityID(id, quality));

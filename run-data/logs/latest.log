@@ -1,31 +1,69 @@
-[04set2023 12:10:35.889] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\MtcLeo05\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.21, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mod, QualityCrops, --all, --output, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\src\generated\resources, --existing, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\src\main\resources, --mixin.config, QualityCrops.mixins.json]
-[04set2023 12:10:35.892] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.4 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[04set2023 12:10:35.983] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/MtcLeo05/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
-[04set2023 12:10:36.232] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.21\fa1ae71bea432df41108f08b99827c469f5000b5\javafmllanguage-1.19.2-43.2.21.jar is missing mods.toml file
-[04set2023 12:10:36.235] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.21\c247250956b111815cd784ab08c0eb04762dc0f9\lowcodelanguage-1.19.2-43.2.21.jar is missing mods.toml file
-[04set2023 12:10:36.238] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.21\5e33f5c7cd16010727e2303ae6728751f1633ac4\mclanguage-1.19.2-43.2.21.jar is missing mods.toml file
-[04set2023 12:10:36.241] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.21\50f36e9031499fd6ae3af6e26a5ad47f089f9027\fmlcore-1.19.2-43.2.21.jar is missing mods.toml file
-[04set2023 12:10:36.358] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[04set2023 12:10:37.415] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04set2023 12:10:37.424] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\MtcLeo05\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, QualityCrops, --all, --output, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\src\generated\resources, --existing, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\src\main\resources]
-[04set2023 12:10:37.483] [main/WARN] [mixin/]: Reference map 'QualityCrops.refmap.json' for QualityCrops.mixins.json could not be read. If this is a development environment you can ignore this message
-[04set2023 12:10:37.733] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\createSrgToMcp\output.srg
-[04set2023 12:10:37.735] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops-1.19.2\build\createSrgToMcp\output.srg
-[04set2023 12:10:38.065] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [QualityCrops]
-[04set2023 12:10:40.057] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[04set2023 12:10:41.311] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.21, for MC 1.19.2 with MCP 20220805.130853
-[04set2023 12:10:41.311] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.21 Initialized
-[04set2023 12:10:41.315] [modloading-worker-0/ERROR] [Bookshelf/]: Mod {} is using deprecated binbBlockRenderLayers option.
-[04set2023 12:10:41.338] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[04set2023 12:10:41.338] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[04set2023 12:10:41.338] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[04set2023 12:10:41.338] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[04set2023 12:10:41.339] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[04set2023 12:10:41.339] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[04set2023 12:10:41.339] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[04set2023 12:10:41.791] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MtcLeo05/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.21_mapped_official_1.19.2/forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
-[04set2023 12:10:41.791] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MtcLeo05/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.21_mapped_official_1.19.2/forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
-[04set2023 12:10:42.045] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[04set2023 12:10:42.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 167 ms
-[04set2023 12:10:42.214] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 168 ms
-[04set2023 12:10:42.227] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 216, old count: 0, new count: 217, removed stale: 0, written: 216
+[12Sept2023 12:53:44.814] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\MtcLeo05\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.21, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mod, QualityCrops, --all, --output, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops\QualityCrops-1.19.2\src\generated\resources, --existing, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops\QualityCrops-1.19.2\src\main\resources, --mixin.config, QualityCrops.mixins.json]
+[12Sept2023 12:53:44.817] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.4 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[12Sept2023 12:53:44.913] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/MtcLeo05/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
+[12Sept2023 12:53:45.139] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.21\fa1ae71bea432df41108f08b99827c469f5000b5\javafmllanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[12Sept2023 12:53:45.141] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.21\c247250956b111815cd784ab08c0eb04762dc0f9\lowcodelanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[12Sept2023 12:53:45.144] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.21\5e33f5c7cd16010727e2303ae6728751f1633ac4\mclanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[12Sept2023 12:53:45.147] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\MtcLeo05\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.21\50f36e9031499fd6ae3af6e26a5ad47f089f9027\fmlcore-1.19.2-43.2.21.jar is missing mods.toml file
+[12Sept2023 12:53:45.242] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[12Sept2023 12:53:46.255] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Sept2023 12:53:46.261] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\MtcLeo05\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, QualityCrops, --all, --output, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops\QualityCrops-1.19.2\src\generated\resources, --existing, C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops\QualityCrops-1.19.2\src\main\resources]
+[12Sept2023 12:53:46.313] [main/WARN] [mixin/]: Reference map 'QualityCrops.refmap.json' for QualityCrops.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Sept2023 12:53:46.499] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops\QualityCrops-1.19.2\build\createSrgToMcp\output.srg
+[12Sept2023 12:53:46.501] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\MtcLeo05\Desktop\QualityMods\QualityCrops\QualityCrops-1.19.2\build\createSrgToMcp\output.srg
+[12Sept2023 12:53:46.615] [main/ERROR] [mixin/]: QualityCrops.mixins.json:CaveVinesMixin: Interface mixin contains a non-public method! Found itemToPop(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/item/Item; in QualityCrops.mixins.json:CaveVinesMixin
+org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found itemToPop(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/item/Item; in QualityCrops.mixins.json:CaveVinesMixin
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:322) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:913) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:801) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:567) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:632) ~[?:?]
+	at java.lang.Class.forName(Class.java:545) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeDataUserdevLaunchHandler.lambda$launchService$0(ForgeDataUserdevLaunchHandler.java:28) ~[fmlloader-1.19.2-43.2.21.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[12Sept2023 12:53:46.724] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [QualityCrops]
+[12Sept2023 12:53:47.314] [main/WARN] [mixin/]: @Final field AGE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty; in QualityCrops.mixins.json:SweetBerryBushMixin should be final
+[12Sept2023 12:53:48.534] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[12Sept2023 12:53:49.691] [modloading-worker-0/ERROR] [Bookshelf/]: Mod {} is using deprecated binbBlockRenderLayers option.
+[12Sept2023 12:53:49.691] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.21, for MC 1.19.2 with MCP 20220805.130853
+[12Sept2023 12:53:49.691] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.21 Initialized
+[12Sept2023 12:53:49.710] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[12Sept2023 12:53:49.710] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[12Sept2023 12:53:49.710] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[12Sept2023 12:53:49.710] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[12Sept2023 12:53:49.710] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[12Sept2023 12:53:49.710] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[12Sept2023 12:53:49.710] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[12Sept2023 12:53:50.144] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MtcLeo05/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.21_mapped_official_1.19.2/forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[12Sept2023 12:53:50.144] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/MtcLeo05/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.21_mapped_official_1.19.2/forge-1.19.2-43.2.21_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[12Sept2023 12:53:50.352] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[12Sept2023 12:53:50.380] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 28 ms
+[12Sept2023 12:53:50.380] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: qualitycrops
+[12Sept2023 12:53:50.485] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: qualitycrops finished after 104 ms
+[12Sept2023 12:53:50.485] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[12Sept2023 12:53:50.487] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 1 ms
+[12Sept2023 12:53:50.487] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 135 ms
+[12Sept2023 12:53:50.494] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 44, old count: 0, new count: 45, removed stale: 0, written: 44

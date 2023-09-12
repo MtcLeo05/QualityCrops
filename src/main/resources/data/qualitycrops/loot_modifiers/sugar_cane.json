@@ -1,0 +1,12 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:sugar_cane"
+    }
+  ],
+  "ironItem": "qualitycrops:sugar_cane_iron",
+  "goldItem": "qualitycrops:sugar_cane_gold",
+  "diamondItem": "qualitycrops:sugar_cane_diamond"
+}

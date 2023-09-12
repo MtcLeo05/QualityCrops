@@ -1,0 +1,38 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "minecraft:sugar_cane"
+  },
+  "categories": [
+    "sand",
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {"block":"minecraft:sugar_cane"},
+  "drops": [
+    {
+      "chance": 0.70,
+      "output": {
+        "item": "minecraft:sugar_cane"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "qualitycrops:sugar_cane_iron"
+      }
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "qualitycrops:sugar_cane_gold"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "qualitycrops:sugar_cane_diamond"
+      }
+    }
+  ]
+}

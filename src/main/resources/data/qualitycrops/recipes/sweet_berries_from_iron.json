@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:sweet_berries_iron"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sweet_berries"
+  }
+}

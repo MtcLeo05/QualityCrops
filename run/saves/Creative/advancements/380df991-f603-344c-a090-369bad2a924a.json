@@ -257,6 +257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2023-09-12 12:59:45 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/qualitycrops_items/baked_potato_gold_from_smelting": {
     "criteria": {
       "has_potato_gold": "2023-07-19 19:38:24 +0200"
@@ -350,6 +356,12 @@
   "qualitycrops:recipes/qualitycrops_items/pumpkin_pie_diamond": {
     "criteria": {
       "hasPumpkin": "2023-07-19 22:09:27 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/qualitycrops_items/sugar_from_cane_gold": {
+    "criteria": {
+      "goldQuality": "2023-09-12 13:00:17 +0200"
     },
     "done": true
   },
@@ -708,6 +720,12 @@
     },
     "done": true
   },
+  "qualitycrops:recipes/qualitycrops_items/sugar_from_cane_iron": {
+    "criteria": {
+      "ironQuality": "2023-09-12 13:00:17 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2023-07-19 16:07:24 +0200"
@@ -774,6 +792,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2023-09-12 12:59:45 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2023-07-19 21:14:18 +0200"
@@ -795,6 +819,12 @@
   "minecraft:recipes/building_blocks/green_wool": {
     "criteria": {
       "has_white_wool": "2023-07-19 21:14:18 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/qualitycrops_items/sugar_from_cane_diamond": {
+    "criteria": {
+      "diamondQuality": "2023-09-12 12:59:43 +0200"
     },
     "done": true
   },

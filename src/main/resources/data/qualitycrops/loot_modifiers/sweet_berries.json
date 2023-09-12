@@ -1,0 +1,15 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "block": "minecraft:sweet_berry_bush",
+      "condition": "minecraft:block_state_property",
+      "properties": {
+        "age": "3"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:sweet_berries_iron",
+  "goldItem": "qualitycrops:sweet_berries_gold",
+  "diamondItem": "qualitycrops:sweet_berries_diamond"
+}

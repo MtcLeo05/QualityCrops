@@ -36,11 +36,11 @@ public class AddQualityModifier extends LootModifier {
 
     @Override
     protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
-        if(context.getRandom().nextFloat() >= 0.95f) {
+        if(context.getRandom().nextFloat() <= 0.05f) {
             generatedLoot.add(new ItemStack(diamondItem));
-        } else if (context.getRandom().nextFloat() >= 0.90f) {
+        } else if (context.getRandom().nextFloat() <= 0.10f) {
             generatedLoot.add(new ItemStack(goldItem));
-        } else if (context.getRandom().nextFloat() >= 0.85f) {
+        } else if (context.getRandom().nextFloat() <= 0.15f) {
             generatedLoot.add(new ItemStack(ironItem));
         }
 

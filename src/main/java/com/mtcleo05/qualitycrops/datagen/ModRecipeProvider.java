@@ -23,6 +23,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildCraftingRecipes(@NotNull Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
+        /*
         List<String> allItems = List.of(
                 "wheat", "red_mushroom",  "brown_mushroom", "kelp", "cocoa_beans", "carrot",
                 "potato", "beetroot", "tropical_fish", "egg", "bread",
@@ -30,7 +31,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 "mushroom_stew", "rabbit_stew", "beef", "chicken", "rabbit", "mutton",
                 "porkchop", "cooked_beef", "cooked_chicken", "cooked_rabbit", "cooked_mutton", "cooked_porkchop",
                 "apple", "cookie", "melon_slice", "dried_kelp", "pumpkin_pie", "poisonous_potato",
-                "pufferfish"
+                "pufferfish", "sugar", "sweet_berries", "glow_berries"
         );
 
         allItems.forEach((currentItem) -> {
@@ -49,7 +50,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     .requires(getItemFromID("qualitycrops:" + currentItem, "diamond"))
                     .save(pFinishedRecipeConsumer, "qualitycrops:" + currentItem + "_from_diamond");
         });
+         */
 
+        ShapelessRecipeBuilder.shapeless(getItemFromID("qualitycrops:sugar", "iron"))
+                .unlockedBy("ironQuality", has(getItemFromID("qualitycrops:sugar_cane", "iron")))
+                .requires(getItemFromID("qualitycrops:sugar_cane", "iron"))
+                .save(pFinishedRecipeConsumer, "qualitycrops:sugar" + "_from_cane_iron");
+
+        ShapelessRecipeBuilder.shapeless(getItemFromID("qualitycrops:sugar", "gold"))
+                .unlockedBy("goldQuality", has(getItemFromID("qualitycrops:sugar_cane", "gold")))
+                .requires(getItemFromID("qualitycrops:sugar_cane", "gold"))
+                .save(pFinishedRecipeConsumer, "qualitycrops:sugar" + "_from_cane_gold");
+
+        ShapelessRecipeBuilder.shapeless(getItemFromID("qualitycrops:sugar", "diamond"))
+                .unlockedBy("diamondQuality", has(getItemFromID("qualitycrops:sugar_cane", "diamond")))
+                .requires(getItemFromID("qualitycrops:sugar_cane", "diamond"))
+                .save(pFinishedRecipeConsumer, "qualitycrops:sugar" + "_from_cane_diamond");
 
     }
 

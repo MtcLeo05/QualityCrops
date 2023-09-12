@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
 
@@ -355,8 +356,11 @@ public class ModItems {
 
     public static void register(IEventBus eventBus){
         registerQualityItem("dough", NEW_ITEMS);
+
         registerVanillaQuality("tropical_fish", VANILLA_QUALITY);
         registerVanillaQuality("egg", VANILLA_QUALITY);
+        registerVanillaQuality("sugar", VANILLA_QUALITY);
+
         registerVanillaQualityFood("bread", VANILLA_QUALITY, Foods.BREAD, false);
         registerVanillaQualityFood("baked_potato", VANILLA_QUALITY, Foods.BAKED_POTATO, false);
         registerVanillaQualityFood("beetroot_soup", VANILLA_QUALITY, Foods.BEETROOT_SOUP, true);
@@ -381,6 +385,7 @@ public class ModItems {
         registerVanillaQualityFood("melon_slice", VANILLA_QUALITY, Foods.MELON_SLICE, false);
         registerVanillaQualityFood("dried_kelp", VANILLA_QUALITY, Foods.DRIED_KELP, false);
         registerVanillaQualityFood("pumpkin_pie", VANILLA_QUALITY, Foods.PUMPKIN_PIE, false);
+
         registerVanillaQualityFoodWithOneEffect("poisonous_potato", VANILLA_QUALITY, Foods.POISONOUS_POTATO, MobEffects.POISON, 100, 0, 0.6f);
         registerVanillaQualityFoodWithThreeEffect("pufferfish", VANILLA_QUALITY, Foods.PUFFERFISH, MobEffects.POISON, 1200, 1, MobEffects.HUNGER, 300, 2, MobEffects.CONFUSION, 300, 0,1.0F);
 
