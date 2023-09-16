@@ -1,10 +1,14 @@
 package com.mtcleo05.qualitycrops.datagen;
 
+import com.mtcleo05.qualitycrops.items.ModItems;
+import com.mtcleo05.qualitycrops.utils.ModTags;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import org.jetbrains.annotations.NotNull;
@@ -23,50 +27,34 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildCraftingRecipes(@NotNull Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
-        /*
-        List<String> allItems = List.of(
-                "wheat", "red_mushroom",  "brown_mushroom", "kelp", "cocoa_beans", "carrot",
-                "potato", "beetroot", "tropical_fish", "egg", "bread",
-                "baked_potato", "beetroot_soup", "cod", "salmon", "cooked_cod", "cooked_salmon",
-                "mushroom_stew", "rabbit_stew", "beef", "chicken", "rabbit", "mutton",
-                "porkchop", "cooked_beef", "cooked_chicken", "cooked_rabbit", "cooked_mutton", "cooked_porkchop",
-                "apple", "cookie", "melon_slice", "dried_kelp", "pumpkin_pie", "poisonous_potato",
-                "pufferfish", "sugar", "sweet_berries", "glow_berries"
-        );
+        ShapedRecipeBuilder.shaped(ModItems.IRON_FERTILIZER.get())
+                .unlockedBy("hasQuality", has(ModTags.QUALITY_IRON))
+                .define('I', Items.IRON_INGOT)
+                .define('Q', ModTags.QUALITY_IRON)
+                .pattern("III")
+                .pattern("QQQ")
+                .pattern("III")
+                .save(pFinishedRecipeConsumer);
 
-        allItems.forEach((currentItem) -> {
-            ShapelessRecipeBuilder.shapeless(getItemFromID("minecraft:" + currentItem))
-                    .unlockedBy("ironQuality", has(getItemFromID("qualitycrops:" + currentItem, "iron")))
-                    .requires(getItemFromID("qualitycrops:" + currentItem, "iron"))
-                    .save(pFinishedRecipeConsumer, "qualitycrops:" + currentItem + "_from_iron");
+        ShapedRecipeBuilder.shaped(ModItems.GOLD_FERTILIZER.get())
+                .unlockedBy("hasQuality", has(ModTags.QUALITY_GOLD))
+                .define('I', Items.GOLD_INGOT)
+                .define('Q', ModTags.QUALITY_GOLD)
+                .define('F', ModItems.IRON_FERTILIZER.get())
+                .pattern("III")
+                .pattern("QFQ")
+                .pattern("III")
+                .save(pFinishedRecipeConsumer);
 
-            ShapelessRecipeBuilder.shapeless(getItemFromID("minecraft:" + currentItem))
-                    .unlockedBy("goldQuality", has(getItemFromID("qualitycrops:" + currentItem, "gold")))
-                    .requires(getItemFromID("qualitycrops:" + currentItem, "gold"))
-                    .save(pFinishedRecipeConsumer, "qualitycrops:" + currentItem + "_from_gold");
-
-            ShapelessRecipeBuilder.shapeless(getItemFromID("minecraft:" + currentItem))
-                    .unlockedBy("diamondQuality", has(getItemFromID("qualitycrops:" + currentItem, "diamond")))
-                    .requires(getItemFromID("qualitycrops:" + currentItem, "diamond"))
-                    .save(pFinishedRecipeConsumer, "qualitycrops:" + currentItem + "_from_diamond");
-        });
-         */
-
-        ShapelessRecipeBuilder.shapeless(getItemFromID("qualitycrops:sugar", "iron"))
-                .unlockedBy("ironQuality", has(getItemFromID("qualitycrops:sugar_cane", "iron")))
-                .requires(getItemFromID("qualitycrops:sugar_cane", "iron"))
-                .save(pFinishedRecipeConsumer, "qualitycrops:sugar" + "_from_cane_iron");
-
-        ShapelessRecipeBuilder.shapeless(getItemFromID("qualitycrops:sugar", "gold"))
-                .unlockedBy("goldQuality", has(getItemFromID("qualitycrops:sugar_cane", "gold")))
-                .requires(getItemFromID("qualitycrops:sugar_cane", "gold"))
-                .save(pFinishedRecipeConsumer, "qualitycrops:sugar" + "_from_cane_gold");
-
-        ShapelessRecipeBuilder.shapeless(getItemFromID("qualitycrops:sugar", "diamond"))
-                .unlockedBy("diamondQuality", has(getItemFromID("qualitycrops:sugar_cane", "diamond")))
-                .requires(getItemFromID("qualitycrops:sugar_cane", "diamond"))
-                .save(pFinishedRecipeConsumer, "qualitycrops:sugar" + "_from_cane_diamond");
-
+        ShapedRecipeBuilder.shaped(ModItems.DIAMOND_FERTILIZER.get())
+                .unlockedBy("hasQuality", has(ModTags.QUALITY_DIAMOND))
+                .define('I', Items.DIAMOND)
+                .define('Q', ModTags.QUALITY_DIAMOND)
+                .define('F', ModItems.GOLD_FERTILIZER.get())
+                .pattern("III")
+                .pattern("QFQ")
+                .pattern("III")
+                .save(pFinishedRecipeConsumer);
     }
 
     public static void simpleFoodRecipe(Item input, Item output, Consumer<FinishedRecipe> pFinishedRecipeConsumer){

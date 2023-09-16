@@ -7,6 +7,7 @@
   "mixins": [
     "CaveVinesMixin",
     "ChickenMixin",
+    "CropBlockMixin",
     "SweetBerryBushMixin"
   ],
   "client": [

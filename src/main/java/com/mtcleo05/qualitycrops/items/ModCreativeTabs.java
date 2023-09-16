@@ -25,10 +25,22 @@ public class ModCreativeTabs {
         }
     };
 
-    public static final CreativeModeTab ITEMS = new CreativeModeTab( "qualitycrops_items") {
+    public static final CreativeModeTab QUALITY_ITEMS = new CreativeModeTab( "qualitycrops_quality_items") {
         @Override
         public @NotNull ItemStack makeIcon() {
             return new ItemStack(getItemFromID("dough", ModItems.NEW_ITEMS));
+        }
+
+        @Override
+        public @NotNull Component getDisplayName() {
+            return Component.translatable("itemGroup.qualitycrops.quality_items");
+        }
+    };
+
+    public static final CreativeModeTab ITEMS = new CreativeModeTab( "qualitycrops_items") {
+        @Override
+        public @NotNull ItemStack makeIcon() {
+            return new ItemStack(ModItems.IRON_FERTILIZER.get());
         }
 
         @Override

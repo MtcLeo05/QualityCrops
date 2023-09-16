@@ -413,6 +413,12 @@
     },
     "done": true
   },
+  "qualitycrops:recipes/qualitycrops_items/dough_gold": {
+    "criteria": {
+      "hasGoldWheat": "2023-09-16 18:01:53 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2023-07-19 21:14:18 +0200"
@@ -642,6 +648,12 @@
     },
     "done": false
   },
+  "qualitycrops:recipes/misc/wheat_from_iron": {
+    "criteria": {
+      "ironQuality": "2023-09-16 18:01:23 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/qualitycrops_items/cooked_rabbit_diamond_from_campfire_cooking": {
     "criteria": {
       "has_rabbit_diamond": "2023-07-19 21:16:58 +0200"
@@ -846,6 +858,12 @@
     },
     "done": true
   },
+  "qualitycrops:recipes/misc/wheat_from_gold": {
+    "criteria": {
+      "goldQuality": "2023-09-16 18:01:53 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2023-07-19 21:14:25 +0200"
@@ -993,6 +1011,12 @@
   "minecraft:recipes/qualitycrops_items/cooked_mutton_diamond_from_smelting": {
     "criteria": {
       "has_mutton_diamond": "2023-07-19 21:14:25 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/misc/wheat_from_diamond": {
+    "criteria": {
+      "diamondQuality": "2023-09-16 18:13:26 +0200"
     },
     "done": true
   },

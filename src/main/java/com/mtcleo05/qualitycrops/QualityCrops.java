@@ -1,6 +1,7 @@
 package com.mtcleo05.qualitycrops;
 
 import com.mojang.logging.LogUtils;
+import com.mtcleo05.qualitycrops.blocks.ModBlocks;
 import com.mtcleo05.qualitycrops.items.ModCrops;
 import com.mtcleo05.qualitycrops.items.ModItems;
 import com.mtcleo05.qualitycrops.loot.QualityLootModifiers;
@@ -37,6 +38,7 @@ public class QualityCrops {
 
         ModCrops.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         QualityLootModifiers.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in

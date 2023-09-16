@@ -11,6 +11,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.BowlFoodItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -21,18 +22,40 @@ public class ModItems {
     public static final DeferredRegister<Item> NEW_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, QualityCrops.MODID);
     public static final DeferredRegister<Item> VANILLA_QUALITY = DeferredRegister.create(ForgeRegistries.ITEMS, QualityCrops.MODID);
 
+
+    public static final RegistryObject<Item> IRON_FERTILIZER = NEW_ITEMS.register("iron_fertilizer", () -> new IronFertilizerItem(
+            new Item.Properties()
+                    .rarity(ModRarities.IRON)
+                    .stacksTo(1)
+                    .tab(ModCreativeTabs.ITEMS)
+    ));
+
+    public static final RegistryObject<Item> GOLD_FERTILIZER = NEW_ITEMS.register("gold_fertilizer", () -> new GoldFertilizerItem(
+            new Item.Properties()
+                    .rarity(ModRarities.GOLD)
+                    .stacksTo(1)
+                    .tab(ModCreativeTabs.ITEMS)
+    ));
+
+    public static final RegistryObject<Item> DIAMOND_FERTILIZER = NEW_ITEMS.register("diamond_fertilizer", () -> new GoldFertilizerItem(
+            new Item.Properties()
+                    .rarity(ModRarities.DIAMOND)
+                    .stacksTo(1)
+                    .tab(ModCreativeTabs.ITEMS)
+    ));
+
     public static void registerQualityItem(String id, DeferredRegister<Item> register){
         register.register(id, () ->
             new Item(
                     new Item.Properties()
-                            .tab(ModCreativeTabs.ITEMS)
+                            .tab(ModCreativeTabs.QUALITY_ITEMS)
             ));
 
         register.register(id + "_iron", () ->
                 new QualityItem(
                         new Item.Properties()
                                 .rarity(ModRarities.IRON)
-                                .tab(ModCreativeTabs.ITEMS),
+                                .tab(ModCreativeTabs.QUALITY_ITEMS),
                         1
                 ));
 
@@ -40,7 +63,7 @@ public class ModItems {
                 new QualityItem(
                         new Item.Properties()
                                 .rarity(ModRarities.GOLD)
-                                .tab(ModCreativeTabs.ITEMS),
+                                .tab(ModCreativeTabs.QUALITY_ITEMS),
                         2
                 ));
 
@@ -48,7 +71,7 @@ public class ModItems {
                 new QualityItem(
                         new Item.Properties()
                                 .rarity(ModRarities.DIAMOND)
-                                .tab(ModCreativeTabs.ITEMS),
+                                .tab(ModCreativeTabs.QUALITY_ITEMS),
                         3
                 ));
     }
@@ -58,7 +81,7 @@ public class ModItems {
                 new QualityItem(
                         new Item.Properties()
                                 .rarity(ModRarities.IRON)
-                                .tab(ModCreativeTabs.ITEMS),
+                                .tab(ModCreativeTabs.QUALITY_ITEMS),
                         1
                 ));
 
@@ -66,7 +89,7 @@ public class ModItems {
                 new QualityItem(
                         new Item.Properties()
                                 .rarity(ModRarities.GOLD)
-                                .tab(ModCreativeTabs.ITEMS),
+                                .tab(ModCreativeTabs.QUALITY_ITEMS),
                         2
                 ));
 
@@ -74,7 +97,7 @@ public class ModItems {
                 new QualityItem(
                         new Item.Properties()
                                 .rarity(ModRarities.DIAMOND)
-                                .tab(ModCreativeTabs.ITEMS),
+                                .tab(ModCreativeTabs.QUALITY_ITEMS),
                         3
                 ));
 
@@ -85,7 +108,7 @@ public class ModItems {
             if(isSoup){
                 return new BowlFoodItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .stacksTo(1)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(foodProperties.getNutrition())
@@ -95,7 +118,7 @@ public class ModItems {
             }else{
                 return new Item(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(foodProperties.getNutrition())
                                         .saturationMod(foodProperties.getSaturationModifier())
@@ -108,7 +131,7 @@ public class ModItems {
             if(isSoup){
                 return new QualityBowlFoodItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .stacksTo(1)
                                 .rarity(ModRarities.IRON)
                                 .food(new FoodProperties.Builder()
@@ -120,7 +143,7 @@ public class ModItems {
             }else{
                 return new QualityItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .rarity(ModRarities.IRON)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(Math.round(foodProperties.getNutrition() * 1.25f))
@@ -135,7 +158,7 @@ public class ModItems {
             if(isSoup){
                 return new QualityBowlFoodItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .stacksTo(1)
                                 .rarity(ModRarities.GOLD)
                                 .food(new FoodProperties.Builder()
@@ -148,7 +171,7 @@ public class ModItems {
             }else{
                 return new QualityItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .rarity(ModRarities.GOLD)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(Math.round(foodProperties.getNutrition() * 1.5f))
@@ -163,7 +186,7 @@ public class ModItems {
             if(isSoup){
                 return new QualityBowlFoodItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .stacksTo(1)
                                 .rarity(ModRarities.DIAMOND)
                                 .food(new FoodProperties.Builder()
@@ -176,7 +199,7 @@ public class ModItems {
             }else{
                 return new QualityItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .rarity(ModRarities.DIAMOND)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(foodProperties.getNutrition() * 2)
@@ -193,7 +216,7 @@ public class ModItems {
             if(isSoup){
                 return new QualityBowlFoodItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .stacksTo(1)
                                 .rarity(ModRarities.IRON)
                                 .food(new FoodProperties.Builder()
@@ -205,7 +228,7 @@ public class ModItems {
             }else{
                 return new QualityItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .rarity(ModRarities.IRON)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(Math.round(foodProperties.getNutrition() * 1.25f))
@@ -220,7 +243,7 @@ public class ModItems {
             if(isSoup){
                 return new QualityBowlFoodItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .stacksTo(1)
                                 .rarity(ModRarities.GOLD)
                                 .food(new FoodProperties.Builder()
@@ -233,7 +256,7 @@ public class ModItems {
             }else{
                 return new QualityItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .rarity(ModRarities.GOLD)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(Math.round(foodProperties.getNutrition() * 1.5f))
@@ -248,7 +271,7 @@ public class ModItems {
             if(isSoup){
                 return new QualityBowlFoodItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .stacksTo(1)
                                 .rarity(ModRarities.DIAMOND)
                                 .food(new FoodProperties.Builder()
@@ -260,7 +283,7 @@ public class ModItems {
             }else{
                 return new QualityItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .rarity(ModRarities.DIAMOND)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(foodProperties.getNutrition() * 2)
@@ -276,7 +299,7 @@ public class ModItems {
         register.register(id + "_iron", () ->
                 new QualityItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .rarity(ModRarities.IRON)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(Math.round(foodProperties.getNutrition() * 1.25f))
@@ -287,7 +310,7 @@ public class ModItems {
 
         register.register(id + "_gold", () -> new QualityItem(
                 new Item.Properties()
-                        .tab(ModCreativeTabs.ITEMS)
+                        .tab(ModCreativeTabs.QUALITY_ITEMS)
                         .rarity(ModRarities.GOLD)
                         .food(new FoodProperties.Builder()
                                 .nutrition(Math.round(foodProperties.getNutrition() * 1.5f))
@@ -299,7 +322,7 @@ public class ModItems {
 
         register.register(id + "_diamond", () -> new QualityItem(
                 new Item.Properties()
-                        .tab(ModCreativeTabs.ITEMS)
+                        .tab(ModCreativeTabs.QUALITY_ITEMS)
                         .rarity(ModRarities.DIAMOND)
                         .food(new FoodProperties.Builder()
                                 .nutrition(foodProperties.getNutrition() * 2)
@@ -314,7 +337,7 @@ public class ModItems {
         register.register(id + "_iron", () ->
                 new QualityItem(
                         new Item.Properties()
-                                .tab(ModCreativeTabs.ITEMS)
+                                .tab(ModCreativeTabs.QUALITY_ITEMS)
                                 .rarity(ModRarities.IRON)
                                 .food(new FoodProperties.Builder()
                                         .nutrition(Math.round(foodProperties.getNutrition() * 1.25f))
@@ -327,7 +350,7 @@ public class ModItems {
 
         register.register(id + "_gold", () -> new QualityItem(
                 new Item.Properties()
-                        .tab(ModCreativeTabs.ITEMS)
+                        .tab(ModCreativeTabs.QUALITY_ITEMS)
                         .rarity(ModRarities.GOLD)
                         .food(new FoodProperties.Builder()
                                 .nutrition(Math.round(foodProperties.getNutrition() * 1.5f))
@@ -341,7 +364,7 @@ public class ModItems {
 
         register.register(id + "_diamond", () -> new QualityItem(
                 new Item.Properties()
-                        .tab(ModCreativeTabs.ITEMS)
+                        .tab(ModCreativeTabs.QUALITY_ITEMS)
                         .rarity(ModRarities.DIAMOND)
                         .food(new FoodProperties.Builder()
                                 .nutrition(foodProperties.getNutrition() * 2)

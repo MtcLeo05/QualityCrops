@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "qualitycrops:iron_farmland",
+    "qualitycrops:gold_farmland",
+    "qualitycrops:diamond_farmland"
+  ]
+}

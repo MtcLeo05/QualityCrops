@@ -4,7 +4,6 @@ import com.mtcleo05.qualitycrops.QualityCrops;
 import com.mtcleo05.qualitycrops.quality.QualityItem;
 import com.mtcleo05.qualitycrops.rarities.ModRarities;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
