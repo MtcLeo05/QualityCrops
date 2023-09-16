@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:glow_berries_gold"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glow_berries"
+  }
+}

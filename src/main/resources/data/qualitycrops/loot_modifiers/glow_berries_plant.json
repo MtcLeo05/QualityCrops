@@ -1,0 +1,15 @@
+{
+  "type": "qualitycrops:add_quality",
+  "conditions": [
+    {
+      "block": "minecraft:cave_vines_plant",
+      "condition": "minecraft:block_state_property",
+      "properties": {
+        "berries": "true"
+      }
+    }
+  ],
+  "ironItem": "qualitycrops:glow_berries_iron",
+  "goldItem": "qualitycrops:glow_berries_gold",
+  "diamondItem": "qualitycrops:glow_berries_diamond"
+}

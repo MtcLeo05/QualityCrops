@@ -1,6 +1,7 @@
 package com.mtcleo05.qualitycrops;
 
 import com.mojang.logging.LogUtils;
+import com.mtcleo05.qualitycrops.blocks.ModBlocks;
 import com.mtcleo05.qualitycrops.items.ModCreativeTabs;
 import com.mtcleo05.qualitycrops.items.ModCrops;
 import com.mtcleo05.qualitycrops.items.ModItems;
@@ -38,6 +39,7 @@ public class QualityCrops {
 
         ModCrops.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
         QualityLootModifiers.register(modEventBus);
 

@@ -5,7 +5,9 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "QualityCrops.refmap.json",
   "mixins": [
-    "ChickenMixin"
+    "CaveVinesMixin",
+    "ChickenMixin",
+    "SweetBerryBushMixin"
   ],
   "client": [
   ],
