@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:cooked_mutton_gold"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_mutton"
+  }
+}

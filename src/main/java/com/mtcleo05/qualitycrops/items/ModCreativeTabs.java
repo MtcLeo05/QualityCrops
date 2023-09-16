@@ -1,6 +1,5 @@
 package com.mtcleo05.qualitycrops.items;
 
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -21,12 +20,19 @@ public class ModCreativeTabs {
 
     };
 
-    public static final CreativeModeTab ITEMS = new CreativeModeTab( "qualitycrops_items") {
+    public static final CreativeModeTab QUALITY_ITEMS = new CreativeModeTab( "qualitycrops_quality_items") {
         @Override
         public @NotNull ItemStack makeIcon() {
             return new ItemStack(getItemFromID("dough", ModItems.NEW_ITEMS));
         }
 
+    };
+
+    public static final CreativeModeTab ITEMS = new CreativeModeTab( "qualitycrops_items") {
+        @Override
+        public @NotNull ItemStack makeIcon() {
+            return new ItemStack(ModItems.IRON_FERTILIZER.get());
+        }
     };
 
     public static Item getItemFromID(String id, DeferredRegister<Item> register){

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:rabbit_diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rabbit"
+  }
+}

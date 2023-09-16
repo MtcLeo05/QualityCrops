@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:cooked_beef_diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_beef"
+  }
+}

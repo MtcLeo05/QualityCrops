@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:cocoa_beans_iron"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cocoa_beans"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:melon_slice_diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:melon_slice"
+  }
+}

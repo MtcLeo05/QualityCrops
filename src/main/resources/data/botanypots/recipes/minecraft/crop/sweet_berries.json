@@ -1,0 +1,71 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "minecraft:sweet_berries"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type":"botanypots:transitional",
+    "phases":
+    [
+      {
+        "block":"minecraft:sweet_berry_bush",
+        "properties":
+        {
+          "age":0
+        }
+      },
+      {
+        "block":"minecraft:sweet_berry_bush",
+        "properties":
+        {
+          "age":1
+        }
+      },
+      {
+        "block":"minecraft:sweet_berry_bush",
+        "properties":
+        {
+          "age":2
+        }
+      }
+    ]
+  },
+  "drops": [
+    {
+      "chance": 0.70,
+      "output": {
+        "item": "minecraft:sweet_berries"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "qualitycrops:sweet_berries_iron"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "qualitycrops:sweet_berries_gold"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "qualitycrops:sweet_berries_diamond"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

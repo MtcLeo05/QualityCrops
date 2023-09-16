@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "qualitycrops:mushroom_stew_gold"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mushroom_stew"
+  }
+}

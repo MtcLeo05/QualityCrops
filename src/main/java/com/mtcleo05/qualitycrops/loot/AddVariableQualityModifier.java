@@ -44,11 +44,11 @@ public class AddVariableQualityModifier extends LootModifier {
 
         int value = context.getRandom().nextInt(itemMin, itemMax + 1);
 
-        if(context.getRandom().nextFloat() >= 0.95f) {
+        if(context.getRandom().nextFloat() <= 0.05f) {
             generatedLoot.add(new ItemStack(diamondItem, value));
-        } else if (context.getRandom().nextFloat() >= 0.90f) {
+        } else if (context.getRandom().nextFloat() <= 0.10f) {
             generatedLoot.add(new ItemStack(goldItem, value));
-        } else if (context.getRandom().nextFloat() >= 0.85f) {
+        } else if (context.getRandom().nextFloat() <= 0.15f) {
             generatedLoot.add(new ItemStack(ironItem, value));
         }
 
