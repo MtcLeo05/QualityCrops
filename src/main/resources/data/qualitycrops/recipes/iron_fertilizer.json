@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Q": {
+      "tag": "qualitycrops:quality/iron"
+    }
+  },
+  "pattern": [
+    "III",
+    "QQQ",
+    "III"
+  ],
+  "result": {
+    "item": "qualitycrops:iron_fertilizer"
+  }
+}

@@ -1,4 +1,16 @@
 {
-  "mappings": {},
-  "data": {}
+  "mappings": {
+    "com/mtcleo05/qualitycrops/mixin/ChickenMixin": {
+      "aiStep": "Lnet/minecraft/world/entity/animal/Chicken;m_8107_()V",
+      "Lnet/minecraft/world/entity/animal/Chicken;spawnAtLocation(Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/world/entity/animal/Chicken;m_19998_(Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/entity/item/ItemEntity;"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/mtcleo05/qualitycrops/mixin/ChickenMixin": {
+        "aiStep": "Lnet/minecraft/world/entity/animal/Chicken;m_8107_()V",
+        "Lnet/minecraft/world/entity/animal/Chicken;spawnAtLocation(Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/world/entity/animal/Chicken;m_19998_(Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/entity/item/ItemEntity;"
+      }
+    }
+  }
 }

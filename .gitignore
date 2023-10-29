@@ -3,8 +3,8 @@
 .gradle/
 build/
 gradle/
-run/
 run-data/
+run/
 
 *.iml
 *.ipr

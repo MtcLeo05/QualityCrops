@@ -5,7 +5,6 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "QualityCrops.refmap.json",
   "mixins": [
-    "CaveVinesMixin",
     "ChickenMixin",
     "SweetBerryBushMixin"
   ],
