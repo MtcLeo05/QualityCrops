@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/mutton",
-    "layer1": "qualitycrops:item/diamond_overlay"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/potato",
-    "layer1": "qualitycrops:item/gold_overlay"
-  }
-}

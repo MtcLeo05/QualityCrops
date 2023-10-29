@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "qualitycrops:mutton_gold"
-  },
-  "result": "qualitycrops:cooked_mutton_gold"
-}
