@@ -11,10 +11,15 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.*;
 import net.minecraft.tags.TagKey;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.tags.IReverseTag;
+import net.minecraftforge.registries.tags.ITagManager;
 import org.jetbrains.annotations.Nullable;
 
 public class ModItemTagProvider extends ItemTagsProvider {
@@ -47,7 +52,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         items = ModItems.VANILLA_QUALITY.getEntries().stream().map(RegistryObject::get)::iterator;
 
+        ITagManager<Item> tagProvider = ForgeRegistries.ITEMS.tags();
+
         items.forEach((item) -> {
+            String path = ForgeRegistries.ITEMS.getKey(item).getPath();
+            Item orginalItem = ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft", path.substring(0, path.lastIndexOf("_"))));
+            tagProvider.getReverseTag(orginalItem).stream().forEach(IReverseTag::getTagKeys);
+
             if (item instanceof QualityItem qualityItem) {
                 switch (qualityItem.cropQuality) {
                     case 2 -> tag(ModTags.QUALITY_GOLD).add(item);
@@ -66,6 +77,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
         items = ModCrops.CROPS.getEntries().stream().map(RegistryObject::get)::iterator;
 
         items.forEach((item) -> {
+            String path = ForgeRegistries.ITEMS.getKey(item).getPath();
+            Item orginalItem = ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft", path.substring(0, path.lastIndexOf("_"))));
+            tagProvider.getReverseTag(orginalItem).stream().forEach(IReverseTag::getTagKeys);
+
             if (item instanceof QualityItem qualityItem) {
                 switch (qualityItem.cropQuality) {
                     case 2 -> tag(ModTags.QUALITY_GOLD).add(item);

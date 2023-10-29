@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "qualitycrops:recipes/food/sweet_berries_from_iron": {
+    "criteria": {
+      "ironQuality": "2023-10-29 19:15:58 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/qualitycrops_items/baked_potato_diamond_from_smoking": {
     "criteria": {
       "has_potato_diamond": "2023-07-19 19:08:49 +0200"
@@ -629,6 +635,12 @@
     },
     "done": true
   },
+  "qualitycrops:recipes/qualitycrops_items/iron_fertilizer": {
+    "criteria": {
+      "hasQuality": "2023-10-29 19:15:58 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2023-07-19 17:38:27 +0200"
@@ -659,6 +671,12 @@
       "minecraft:hoglin": "2023-07-19 21:18:08 +0200"
     },
     "done": false
+  },
+  "qualitycrops:recipes/food/glow_berries_from_gold": {
+    "criteria": {
+      "goldQuality": "2023-10-29 19:28:09 +0100"
+    },
+    "done": true
   },
   "qualitycrops:recipes/misc/wheat_from_iron": {
     "criteria": {
@@ -984,6 +1002,12 @@
     },
     "done": true
   },
+  "qualitycrops:recipes/food/glow_berries_from_iron": {
+    "criteria": {
+      "ironQuality": "2023-10-29 19:28:08 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/qualitycrops_items/cooked_porkchop_diamond_from_campfire_cooking": {
     "criteria": {
       "has_porkchop_diamond": "2023-07-19 21:10:17 +0200"
@@ -993,6 +1017,12 @@
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_logs": "2023-07-19 23:04:22 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/food/sweet_berries_from_diamond": {
+    "criteria": {
+      "diamondQuality": "2023-10-29 19:15:55 +0100"
     },
     "done": true
   },
@@ -1151,6 +1181,12 @@
   "minecraft:recipes/qualitycrops_items/cooked_porkchop_iron_from_smelting": {
     "criteria": {
       "has_porkchop_iron": "2023-07-19 21:09:47 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/food/sweet_berries_from_gold": {
+    "criteria": {
+      "goldQuality": "2023-10-29 19:16:02 +0100"
     },
     "done": true
   },

@@ -6,7 +6,8 @@
   "refmap": "QualityCrops.refmap.json",
   "mixins": [
     "ChickenMixin",
-    "SweetBerryBushMixin"
+    "SweetBerryBushMixin",
+    "BlockMixin"
   ],
   "client": [
   ],

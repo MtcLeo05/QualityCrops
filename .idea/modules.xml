@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.0.1.QualityCrops.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1.0.1.QualityCrops.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.19.2-1.0.5.QualityCrops.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1.19.2-1.0.5.QualityCrops.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QualityCrops.iml" filepath="$PROJECT_DIR$/.idea/modules/QualityCrops.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QualityCrops-1.19.2.QualityCrops.test.iml" filepath="$PROJECT_DIR$/.idea/modules/QualityCrops-1.19.2.QualityCrops.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QualityCrops.QualityCrops-1.19.2.QualityCrops.test.iml" filepath="$PROJECT_DIR$/.idea/modules/QualityCrops.QualityCrops-1.19.2.QualityCrops.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/0.0.3.QualityCrops.test.iml" filepath="$PROJECT_DIR$/.idea/modules/0.0.3.QualityCrops.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/QualityCrops.main.iml" filepath="$PROJECT_DIR$/.idea/modules/QualityCrops.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/QualityCrops.test.iml" filepath="$PROJECT_DIR$/.idea/modules/QualityCrops.test.iml" />
     </modules>
