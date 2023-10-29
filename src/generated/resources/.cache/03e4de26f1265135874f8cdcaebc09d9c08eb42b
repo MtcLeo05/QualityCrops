@@ -1,4 +1,24 @@
-// 1.19.2	2023-10-29T20:00:10.4975347	Tags for minecraft:item
+// 1.19.2	2023-10-29T22:49:14.5081689	Tags for minecraft:item
+2248578a9c493bb875f8424f33caa3fc6b66dc39 data/forge/tags/items/berries.json
+d422755991d8fd643c860b31f419509bbd0d9385 data/forge/tags/items/bread/wheat.json
+e136e76a36d5e102fb185307ca9fbdb913a67664 data/forge/tags/items/cooked_beef.json
+1b1edec17bf51abf2e27e96a94fe0a058f5df0e5 data/forge/tags/items/cooked_chicken.json
+7c7a41426acd80bfa93672462a2dc10cd8ce8f1f data/forge/tags/items/cooked_fishes/cod.json
+78d910289e284bc6899d1f1fabdf0496168591bc data/forge/tags/items/cooked_fishes/salmon.json
+adfea6effaeb4ccf71230eb7df13a076b69e5ca4 data/forge/tags/items/cooked_mutton.json
+4d111e6a86b0bafcd8c8b93878cc0a5a66a9fc66 data/forge/tags/items/cooked_pork.json
+0fc63aa59e4953a2d211364fdab2d285a27646ec data/forge/tags/items/eggs.json
+96af33f53f0736615de793dee35869a3023df544 data/forge/tags/items/grain/wheat.json
+8e5c0063f9ebfb0a8b90cebb757341ab19e2daf6 data/forge/tags/items/raw_beef.json
+de9587a02cd62ea38c3edd7f0c781fe0d6d03cf0 data/forge/tags/items/raw_chicken.json
+fb7a10d216d33cbaed5cbe58e7b9b49c5712d2ee data/forge/tags/items/raw_fishes/cod.json
+f509b2486c3a4a51a29e1fce00c48bbef21a7d21 data/forge/tags/items/raw_fishes/salmon.json
+9119c0ab6896a0ed6a916916c4e6a1dab4ab06b2 data/forge/tags/items/raw_fishes/tropical_fish.json
+1b6434648d813708cc1ae9f136bd7eeb15eed10a data/forge/tags/items/raw_mutton.json
+965dd9c0366204e5b6f1bf04a746da0a1effcec9 data/forge/tags/items/raw_pork.json
+f30838fa92854ae682fa461eff9800e56df777fb data/forge/tags/items/vegetables/beetroot.json
+aa49dc4a9a748db0193fbf645fa76d8702354f2d data/forge/tags/items/vegetables/carrot.json
+33ec6fc22e70b37487a0f21481f7c753e9eb0090 data/forge/tags/items/vegetables/potato.json
 2cb672b2a015e06f424aa38c92fcc1e58e53d04b data/qualitycrops/tags/items/quality/diamond.json
 7c1a19bce1463f448812303c4639a3e249c968fa data/qualitycrops/tags/items/quality/gold.json
 068c4492f070a7b6a391e57aed151e472b035116 data/qualitycrops/tags/items/quality/iron.json

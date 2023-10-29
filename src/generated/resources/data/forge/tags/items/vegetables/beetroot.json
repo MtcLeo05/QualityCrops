@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:beetroot_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:beetroot_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:beetroot_diamond",
+      "required": false
+    }
+  ]
+}

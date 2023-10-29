@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:porkchop_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:porkchop_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:porkchop_diamond",
+      "required": false
+    }
+  ]
+}

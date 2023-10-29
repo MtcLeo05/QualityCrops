@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:beef_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:beef_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:beef_diamond",
+      "required": false
+    }
+  ]
+}

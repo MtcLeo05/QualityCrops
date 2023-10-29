@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:potato_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:potato_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:potato_diamond",
+      "required": false
+    }
+  ]
+}

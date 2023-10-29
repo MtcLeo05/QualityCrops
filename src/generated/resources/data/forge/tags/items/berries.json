@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:sweet_berries_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:sweet_berries_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:sweet_berries_diamond",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:glow_berries_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:glow_berries_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:glow_berries_diamond",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:cooked_salmon_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:cooked_salmon_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:cooked_salmon_diamond",
+      "required": false
+    }
+  ]
+}

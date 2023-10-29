@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:cooked_mutton_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:cooked_mutton_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:cooked_mutton_diamond",
+      "required": false
+    }
+  ]
+}
