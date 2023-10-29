@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:wheat_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:wheat_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:wheat_diamond",
+      "required": false
+    }
+  ]
+}

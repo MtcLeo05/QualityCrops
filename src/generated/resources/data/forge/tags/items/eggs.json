@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:egg_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:egg_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:egg_diamond",
+      "required": false
+    }
+  ]
+}

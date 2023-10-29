@@ -26,9 +26,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         items.forEach(item -> {
             if(item instanceof QualityItem qualityItem){
-                qualityItem(item, qualityItem.cropQuality, "minecraft");
+                qualityItem(item, qualityItem.cropQuality, QualityCrops.MODID);
             }else if(item instanceof QualityBowlFoodItem qualityBowlFoodItem){
-                qualityItem(item, qualityBowlFoodItem.cropQuality, "minecraft");
+                qualityItem(item, qualityBowlFoodItem.cropQuality, QualityCrops.MODID);
             }else{
                 simpleItem(item);
             }
@@ -50,6 +50,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
     private ItemModelBuilder simpleItem(Item item){
+        if (item instanceof BlockItem) {
+            return withExistingParent(getItemName(item), new ResourceLocation(QualityCrops.MODID, "block/" + getItemName(item)));
+        }
+
         return withExistingParent(getItemName(item),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(QualityCrops.MODID, "item/"+ getItemName(item)));

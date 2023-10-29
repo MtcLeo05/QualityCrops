@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:tropical_fish_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:tropical_fish_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:tropical_fish_diamond",
+      "required": false
+    }
+  ]
+}

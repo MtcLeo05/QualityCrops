@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "cookingtime": 600,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "qualitycrops:rabbit_diamond"
-  },
-  "result": "qualitycrops:cooked_rabbit_diamond"
-}

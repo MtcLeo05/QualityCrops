@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:carrot_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:carrot_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:carrot_diamond",
+      "required": false
+    }
+  ]
+}

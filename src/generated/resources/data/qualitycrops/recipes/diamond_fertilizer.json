@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "F": {
+      "item": "qualitycrops:gold_fertilizer"
+    },
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "Q": {
+      "tag": "qualitycrops:quality/diamond"
+    }
+  },
+  "pattern": [
+    "III",
+    "QFQ",
+    "III"
+  ],
+  "result": {
+    "item": "qualitycrops:diamond_fertilizer"
+  }
+}

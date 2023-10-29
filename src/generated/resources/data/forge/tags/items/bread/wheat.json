@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "qualitycrops:bread_iron",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:bread_gold",
+      "required": false
+    },
+    {
+      "id": "qualitycrops:bread_diamond",
+      "required": false
+    }
+  ]
+}

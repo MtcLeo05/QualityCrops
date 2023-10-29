@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "qualitycrops:kelp_diamond"
-  },
-  "result": "qualitycrops:dried_kelp_diamond"
-}

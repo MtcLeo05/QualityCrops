@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "cookingtime": 600,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "qualitycrops:kelp_iron"
-  },
-  "result": "qualitycrops:dried_kelp_iron"
-}
