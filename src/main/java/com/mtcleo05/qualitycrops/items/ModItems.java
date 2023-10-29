@@ -26,21 +26,21 @@ public class ModItems {
     public static final RegistryObject<Item> IRON_FERTILIZER = NEW_ITEMS.register("iron_fertilizer", () -> new IronFertilizerItem(
             new Item.Properties()
                     .rarity(ModRarities.IRON)
-                    .stacksTo(1)
+                    .stacksTo(16)
                     .tab(ModCreativeTabs.ITEMS)
     ));
 
     public static final RegistryObject<Item> GOLD_FERTILIZER = NEW_ITEMS.register("gold_fertilizer", () -> new GoldFertilizerItem(
             new Item.Properties()
                     .rarity(ModRarities.GOLD)
-                    .stacksTo(1)
+                    .stacksTo(16)
                     .tab(ModCreativeTabs.ITEMS)
     ));
 
-    public static final RegistryObject<Item> DIAMOND_FERTILIZER = NEW_ITEMS.register("diamond_fertilizer", () -> new GoldFertilizerItem(
+    public static final RegistryObject<Item> DIAMOND_FERTILIZER = NEW_ITEMS.register("diamond_fertilizer", () -> new DiamondFertilizerItem(
             new Item.Properties()
                     .rarity(ModRarities.DIAMOND)
-                    .stacksTo(1)
+                    .stacksTo(16)
                     .tab(ModCreativeTabs.ITEMS)
     ));
 

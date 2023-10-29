@@ -8,7 +8,7 @@
       "item": "minecraft:gold_ingot"
     },
     "Q": {
-      "tag": "forge:quality/gold"
+      "tag": "qualitycrops:quality/gold"
     }
   },
   "pattern": [

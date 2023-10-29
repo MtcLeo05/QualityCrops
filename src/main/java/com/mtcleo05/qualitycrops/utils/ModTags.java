@@ -7,11 +7,11 @@ import net.minecraft.world.item.Item;
 
 public class ModTags {
 
-    public static TagKey<Item> QUALITY_IRON = forgeItemTag("quality/iron");
-    public static TagKey<Item> QUALITY_GOLD = forgeItemTag("quality/gold");
-    public static TagKey<Item> QUALITY_DIAMOND = forgeItemTag("quality/diamond");
+    public static TagKey<Item> QUALITY_IRON = qualityItemTag("quality/iron");
+    public static TagKey<Item> QUALITY_GOLD = qualityItemTag("quality/gold");
+    public static TagKey<Item> QUALITY_DIAMOND = qualityItemTag("quality/diamond");
 
-    private static TagKey<Item> forgeItemTag(String path) {
-        return TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation("forge", path));
+    private static TagKey<Item> qualityItemTag(String path) {
+        return TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation("qualitycrops", path));
     }
 }

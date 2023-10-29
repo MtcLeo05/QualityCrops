@@ -335,6 +335,12 @@
     },
     "done": true
   },
+  "qualitycrops:recipes/qualitycrops_items/diamond_fertilizer": {
+    "criteria": {
+      "hasQuality": "2023-10-28 14:37:24 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/qualitycrops_items/cooked_cod_iron_from_smoking": {
     "criteria": {
       "has_cod_iron": "2023-07-19 19:44:14 +0200"
@@ -410,6 +416,12 @@
   "minecraft:recipes/qualitycrops_items/cooked_porkchop_gold_from_smoking": {
     "criteria": {
       "has_porkchop_gold": "2023-07-19 21:09:47 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/misc/egg_from_diamond": {
+    "criteria": {
+      "diamondQuality": "2023-10-28 14:37:24 +0200"
     },
     "done": true
   },
@@ -687,6 +699,12 @@
   "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
       "has_melon": "2023-07-19 21:41:41 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/qualitycrops_items/gold_fertilizer": {
+    "criteria": {
+      "hasQuality": "2023-10-28 14:37:21 +0200"
     },
     "done": true
   },
@@ -1133,6 +1151,12 @@
   "minecraft:recipes/qualitycrops_items/cooked_porkchop_iron_from_smelting": {
     "criteria": {
       "has_porkchop_iron": "2023-07-19 21:09:47 +0200"
+    },
+    "done": true
+  },
+  "qualitycrops:recipes/misc/egg_from_gold": {
+    "criteria": {
+      "goldQuality": "2023-10-28 14:37:21 +0200"
     },
     "done": true
   },

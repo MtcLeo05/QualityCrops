@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "forge:quality/gold"
+            "tag": "qualitycrops:quality/iron"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "qualitycrops:gold_fertilizer"
+        "recipe": "qualitycrops:iron_fertilizer"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "qualitycrops:gold_fertilizer"
+      "qualitycrops:iron_fertilizer"
     ]
   }
 }

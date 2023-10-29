@@ -5,6 +5,7 @@ import com.mtcleo05.qualitycrops.items.ModCreativeTabs;
 import com.mtcleo05.qualitycrops.items.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,18 +23,21 @@ public class ModBlocks {
             new IronFarmland(
                     BlockBehaviour.Properties.of(Material.DIRT)
                             .strength(2.5f)
+                            .sound(SoundType.GRASS)
             ));
 
     public static final RegistryObject<Block> GOLD_FARMLAND = registerBlock("gold_farmland", () ->
             new GoldFarmland(
                     BlockBehaviour.Properties.of(Material.DIRT)
                             .strength(2.5f)
+                            .sound(SoundType.GRASS)
     ));
 
     public static final RegistryObject<Block> DIAMOND_FARMLAND = registerBlock("diamond_farmland", () ->
             new DiamondFarmland(
                     BlockBehaviour.Properties.of(Material.DIRT)
                             .strength(2.5f)
+                            .sound(SoundType.GRASS)
             ));
 
     private static RegistryObject<Block> registerBlock(String name, Supplier<Block> block){
